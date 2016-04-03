@@ -1,5 +1,5 @@
 import org.junit.Assert;
-import org.junit.Before;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 import java.nio.file.Path;
@@ -8,8 +8,8 @@ import java.nio.file.Paths;
 
 public class NIO2Basics
 {
-    @Before
-    public void init()
+    @BeforeClass
+    public static void init()
     {
         //prints current file system
         System.out.println(Paths.get("").getFileSystem());
@@ -35,5 +35,28 @@ public class NIO2Basics
     {
         final Path path = Paths.get("/dir/example.txt");
         Assert.assertEquals(path.getParent().toString(),"/dir");
+    }
+
+    @Test
+    public void fileNameTest()
+    {
+        final Path path = Paths.get("/dir/example.txt");
+        Assert.assertEquals(path.getFileName().toString(),"example.txt");
+    }
+
+    @Test
+    public void fileNameCountTest() {
+        final Path path = Paths.get("/dir/example.txt");
+        Assert.assertEquals(path.getNameCount(), 2);
+        Assert.assertEquals(path.getName(0).toString(), "dir");
+
+    }
+
+    @Test
+    public void fileRootTest()
+    {
+        final Path path = Paths.get("/root/dir/example.txt");
+        //on mac
+        Assert.assertEquals(path.getRoot().toString(),"/");
     }
 }
