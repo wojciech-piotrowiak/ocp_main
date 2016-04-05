@@ -1,24 +1,23 @@
 import org.apache.commons.lang3.time.StopWatch;
+import org.junit.Assert;
+import org.junit.Test;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.URL;
 
 
 public class BufferExamples
 {
+    @Test
+    public void test() throws IOException {
+        Assert.assertTrue(bufferStreamExample()<bufferExample());
+        Assert.assertTrue(bufferExample()<nonBufferExample());
+    }
 
-	public static void main(String... args)
-	{
-		nonBufferExample();
-		bufferStreamExample();
-		bufferExample();
-	}
-
-	private static void nonBufferExample()
-	{
-		try (FileInputStream f = new FileInputStream("resources/bigtextfile.txt"))
+	public long nonBufferExample() throws IOException {
+		try (FileInputStream f = new FileInputStream(getBigFileUrl().getFile()))
 		{
             StopWatch stopWatch=new StopWatch();
             stopWatch.start();
@@ -28,20 +27,12 @@ public class BufferExamples
 			}
             stopWatch.stop();
 			System.out.println(stopWatch.getTime() + " ms without buffer");
-		}
-		catch (FileNotFoundException e)
-		{
-			e.printStackTrace();
-		}
-		catch (IOException e)
-		{
-			e.printStackTrace();
+            return  stopWatch.getTime();
 		}
 	}
 
-	private static void bufferExample()
-	{
-		try (FileInputStream f = new FileInputStream("resources/bigtextfile.txt");
+    public long bufferExample() throws IOException {
+		try (FileInputStream f = new FileInputStream(getBigFileUrl().getFile());
 				BufferedInputStream br = new BufferedInputStream(f))
 		{
 
@@ -53,20 +44,12 @@ public class BufferExamples
 			}
             stopWatch.stop();
 			System.out.println(stopWatch.getTime() + " ms with buffered stream");
-		}
-		catch (FileNotFoundException e)
-		{
-			e.printStackTrace();
-		}
-		catch (IOException e)
-		{
-			e.printStackTrace();
+            return  stopWatch.getTime();
 		}
 	}
 
-	private static void bufferStreamExample()
-	{
-		try (FileInputStream f = new FileInputStream("resources/bigtextfile.txt");
+	public long bufferStreamExample() throws IOException {
+		try (FileInputStream f = new FileInputStream(getBigFileUrl().getFile());
 				BufferedInputStream br = new BufferedInputStream(f))
 		{
 
@@ -79,14 +62,12 @@ public class BufferExamples
 			}
 			stopWatch.stop();
 			System.out.println(stopWatch.getTime() + " ms with buffer and buffered stream");
-		}
-		catch (FileNotFoundException e)
-		{
-			e.printStackTrace();
-		}
-		catch (IOException e)
-		{
-			e.printStackTrace();
+            return  stopWatch.getTime();
 		}
 	}
+
+    private URL getBigFileUrl() {
+        ClassLoader classLoader = getClass().getClassLoader();
+        return classLoader.getResource("bigtextfile.txt");
+    }
 }
