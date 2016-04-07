@@ -28,6 +28,8 @@ public class NIO2FileOperations {
         Assert.assertFalse(Files.isHidden(path));
     }
 
+
+
     private URL getFile() {
         ClassLoader classLoader = getClass().getClassLoader();
         return classLoader.getResource("lines.txt");
