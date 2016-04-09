@@ -12,7 +12,7 @@ public class NIO2FileOperations {
 
     @Test
     public void readAllLines() throws IOException {
-        final Path path = Paths.get(getFile().getFile());
+        final Path path = Paths.get(getFile().getFile().substring(1));
         final List<String> strings = Files.readAllLines(path);
         Assert.assertEquals(3,strings.size());
         Assert.assertEquals("1",strings.get(0));
@@ -20,18 +20,20 @@ public class NIO2FileOperations {
 
     @Test
     public void file() throws IOException {
-        final Path path = Paths.get(getFile().getFile());
+        final Path path = Paths.get(getFile().getFile().substring(1));
 
         Assert.assertFalse(Files.isSymbolicLink(path));
         Assert.assertTrue(Files.isReadable(path));
-        Assert.assertFalse(Files.isExecutable(path));
+        //on mac
+        //Assert.assertFalse(Files.isExecutable(path));
+        Assert.assertTrue(Files.isExecutable(path));
         Assert.assertFalse(Files.isHidden(path));
     }
 
 
 
-    private URL getFile() {
-        ClassLoader classLoader = getClass().getClassLoader();
-        return classLoader.getResource("lines.txt");
+    private URL getFile(){
+        ClassLoader classloader = Thread.currentThread().getContextClassLoader();
+        return classloader.getResource("lines.txt");
     }
 }

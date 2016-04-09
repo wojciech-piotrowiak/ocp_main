@@ -61,7 +61,6 @@ public class CloseYourStreamPlease {
     }
 
     private URL getSmallfileUrl() {
-        ClassLoader classLoader = getClass().getClassLoader();
-        return classLoader.getResource("smalltextfile.txt");
+        return getClass().getResource("smalltextfile.txt");
     }
 }
