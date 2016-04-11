@@ -25,9 +25,10 @@ public class NIO2FileOperations {
         Assert.assertFalse(Files.isSymbolicLink(path));
         Assert.assertTrue(Files.isReadable(path));
         //on mac
+        // Assert.assertFalse(Files.isHidden(path));
         //Assert.assertFalse(Files.isExecutable(path));
         Assert.assertTrue(Files.isExecutable(path));
-        Assert.assertFalse(Files.isHidden(path));
+        Assert.assertTrue(Files.isHidden(path));
     }
 
 
