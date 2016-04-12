@@ -27,7 +27,7 @@ public class SerializeExample
 		 serializeMe.myself=new ICannotSerializeMyself();
 
 		try (FileOutputStream fileOut = new FileOutputStream("employee.ser");
-				ObjectOutputStream out = new ObjectOutputStream(fileOut);)
+			 ObjectOutputStream out = new ObjectOutputStream(fileOut);)
 		{
 			out.writeObject(serializeMe);
 		}
@@ -42,7 +42,7 @@ public class SerializeExample
         serializeMe.myself=null;
 
         try (FileOutputStream fileOut = new FileOutputStream("employee.ser");
-             ObjectOutputStream out = new ObjectOutputStream(fileOut))
+			 ObjectOutputStream out = new ObjectOutputStream(fileOut))
         {
             out.writeObject(serializeMe);
         }
@@ -58,13 +58,13 @@ public class SerializeExample
 
 
 		try (FileOutputStream fileOut = new FileOutputStream("employee.ser");
-				ObjectOutputStream out = new ObjectOutputStream(fileOut))
+			 ObjectOutputStream out = new ObjectOutputStream(fileOut))
 		{
 			out.writeObject(serializeMe);
 		}
 
 		try (FileInputStream fileIn = new FileInputStream("employee.ser");
-				ObjectInputStream in = new ObjectInputStream(fileIn))
+			 ObjectInputStream in = new ObjectInputStream(fileIn))
 		{
             //no output from constructor!
 			SerializeMe sm = (SerializeMe) in.readObject();
