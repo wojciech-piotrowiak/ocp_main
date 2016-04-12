@@ -26,7 +26,7 @@ public class SerializeExample
 		// This field can be marked as transient
 		 serializeMe.myself=new ICannotSerializeMyself();
 
-		try (FileOutputStream fileOut = new FileOutputStream("employee.ser");
+		try (FileOutputStream fileOut = new FileOutputStream("target\\employee.ser");
 			 ObjectOutputStream out = new ObjectOutputStream(fileOut);)
 		{
 			out.writeObject(serializeMe);
@@ -41,7 +41,7 @@ public class SerializeExample
         serializeMe.name = "testName";
         serializeMe.myself=null;
 
-        try (FileOutputStream fileOut = new FileOutputStream("employee.ser");
+        try (FileOutputStream fileOut = new FileOutputStream("target\\employee.ser");
 			 ObjectOutputStream out = new ObjectOutputStream(fileOut))
         {
             out.writeObject(serializeMe);
@@ -57,13 +57,13 @@ public class SerializeExample
 		serializeMe.name = "testName";
 
 
-		try (FileOutputStream fileOut = new FileOutputStream("employee.ser");
+		try (FileOutputStream fileOut = new FileOutputStream("target\\employee.ser");
 			 ObjectOutputStream out = new ObjectOutputStream(fileOut))
 		{
 			out.writeObject(serializeMe);
 		}
 
-		try (FileInputStream fileIn = new FileInputStream("employee.ser");
+		try (FileInputStream fileIn = new FileInputStream("target\\employee.ser");
 			 ObjectInputStream in = new ObjectInputStream(fileIn))
 		{
             //no output from constructor!

@@ -39,7 +39,7 @@ public class CloseYourStreamPlease {
     {
         try(FileInputStream f = new FileInputStream(getSmallfileUrl().getFile());
             BufferedInputStream br=new BufferedInputStream(f);
-            FileOutputStream outputStream=new FileOutputStream("copyofsmalltextfile.txt");
+            FileOutputStream outputStream=new FileOutputStream("target\\copyofsmalltextfile.txt");
             BufferedOutputStream out=new BufferedOutputStream(outputStream))
         {
             int length;
