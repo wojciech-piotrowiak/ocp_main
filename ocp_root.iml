@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/ocp_chapter8/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/ocp_chapter9/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/ocp_chapter9/src/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ocp_chapter6/src/test" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
