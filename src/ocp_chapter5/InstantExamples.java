@@ -1,3 +1,5 @@
+package ocp_chapter5;
+
 import org.junit.Test;
 
 import java.time.Duration;

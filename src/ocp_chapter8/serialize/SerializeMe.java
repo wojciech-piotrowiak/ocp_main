@@ -1,4 +1,4 @@
-package serialize;
+package ocp_chapter8.serialize;
 
 import java.io.Serializable;
 

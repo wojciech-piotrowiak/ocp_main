@@ -1,3 +1,5 @@
+package ocp_chapter9;
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -10,27 +12,26 @@ public class NIO2SearchAndWalk {
 
     @Test
     public void walk() throws IOException {
-        Path path = Paths.get(getFile("searchme"));
+        Path path = Paths.get(getFile());
         Assert.assertEquals(4,Files.walk(path).filter(p->p.toString().endsWith(".txt")).peek(System.out::println).count());
     }
 
     @Test
     public void walkWithDepth() throws IOException {
-        Path path = Paths.get(getFile("searchme"));
+        Path path = Paths.get(getFile());
         Assert.assertEquals(2,Files.walk(path,1).filter(p->p.toString().endsWith(".txt")).peek(System.out::println).count());
     }
 
     @Test
     public void listFiles() throws IOException {
-        Path path = Paths.get(getFile("searchme"));
+        Path path = Paths.get(getFile());
         Assert.assertEquals(3,Files.list(path).
                 map(p->p.toAbsolutePath()).peek(System.out::println).count());
     }
 
 
-
-
-    private String getFile(String path) {
-        return getClass().getResource(path).getFile().substring(1);
+    private String getFile() {
+        ClassLoader classloader = Thread.currentThread().getContextClassLoader();
+        return classloader.getResource("chapter9/searchme").getFile().substring(1);
     }
 }

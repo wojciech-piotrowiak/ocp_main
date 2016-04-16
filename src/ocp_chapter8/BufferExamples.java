@@ -1,3 +1,5 @@
+package ocp_chapter8;
+
 import org.apache.commons.lang3.time.StopWatch;
 import org.junit.Assert;
 import org.junit.Test;
@@ -68,6 +70,6 @@ public class BufferExamples
 
     private URL getBigFileUrl() {
         ClassLoader classLoader = getClass().getClassLoader();
-        return classLoader.getResource("bigtextfile.txt");
-    }
+		return classLoader.getResource("chapter8/bigtextfile.txt");
+	}
 }

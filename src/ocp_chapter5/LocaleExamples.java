@@ -1,3 +1,5 @@
+package ocp_chapter5;
+
 import org.junit.Assert;
 import org.junit.Test;
 

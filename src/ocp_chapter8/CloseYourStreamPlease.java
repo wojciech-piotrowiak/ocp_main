@@ -1,3 +1,5 @@
+package ocp_chapter8;
+
 import org.junit.Test;
 
 import java.io.BufferedInputStream;
@@ -61,6 +63,7 @@ public class CloseYourStreamPlease {
     }
 
     private URL getSmallfileUrl() {
-        return getClass().getResource("smalltextfile.txt");
+        ClassLoader classloader = Thread.currentThread().getContextClassLoader();
+        return classloader.getResource("chapter8/smalltextfile.txt");
     }
 }

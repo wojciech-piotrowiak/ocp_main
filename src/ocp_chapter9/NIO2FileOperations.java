@@ -1,3 +1,5 @@
+package ocp_chapter9;
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -27,14 +29,16 @@ public class NIO2FileOperations {
         //on mac
         // Assert.assertFalse(Files.isHidden(path));
         //Assert.assertFalse(Files.isExecutable(path));
+
+        //on windows
         Assert.assertTrue(Files.isExecutable(path));
-        Assert.assertTrue(Files.isHidden(path));
+        Assert.assertFalse(Files.isHidden(path));
     }
 
 
 
     private String getFile(){
         ClassLoader classloader = Thread.currentThread().getContextClassLoader();
-        return classloader.getResource("lines.txt").getFile().substring(1);
+        return classloader.getResource("chapter9/lines.txt").getFile().substring(1);
     }
 }

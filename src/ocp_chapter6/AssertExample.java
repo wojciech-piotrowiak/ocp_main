@@ -1,3 +1,5 @@
+package ocp_chapter6;
+
 import org.junit.BeforeClass;
 import org.junit.Test;
 
