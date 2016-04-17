@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ecb7606-9dd2-4f67-ae48-f12d2942b2c0" name="Default" comment="new test cases: bundles + properties">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ocp_chapter5/FormattingNumbersExamples.java" />
+    <list default="true" id="0ecb7606-9dd2-4f67-ae48-f12d2942b2c0" name="Default" comment="new test case: number formatting">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ocp_chapter5/FormattingDateAndTime.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ocp_chapter5/FormattingNumbersExamples.java" afterPath="$PROJECT_DIR$/src/ocp_chapter5/FormattingNumbersExamples.java" />
     </list>
     <ignored path="ocp_root.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,41 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ParallelStreamExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ocp_chapter7/ParallelStreamExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StreamCreationExamples.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ocp_chapter7/StreamCreationExamples.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="45" column="76" selection-start-line="45" selection-start-column="76" selection-end-line="45" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AssertExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ocp_chapter6/AssertExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DateTimeExamples.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DateTimeExamples.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/DateTimeExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            <state relative-caret-position="-63">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -77,11 +48,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_en.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/chapter5/test_en.properties">
+      <file leaf-file-name="InstantExamples.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/InstantExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            <state relative-caret-position="24">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocaleExamples.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/LocaleExamples.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PeriodExamples.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/PeriodExamples.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -99,13 +90,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FormattingNumbersExamples.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FormattingNumbersExamples.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/FormattingNumbersExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="205">
+              <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FormattingDateAndTime.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/FormattingDateAndTime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="63" column="60" selection-start-line="63" selection-start-column="60" selection-end-line="63" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#959#960#0" expanded="true" />
+                <element signature="e#1067#1068#0" expanded="true" />
+                <element signature="e#1129#1130#0" expanded="true" />
+                <element signature="e#1233#1234#0" expanded="true" />
+                <element signature="e#1291#1292#0" expanded="true" />
+                <element signature="e#1936#1937#0" expanded="true" />
+                <element signature="e#1994#1995#0" expanded="true" />
+                <element signature="e#2102#2103#0" expanded="true" />
+                <element signature="e#2164#2165#0" expanded="true" />
+                <element signature="e#2217#2218#0" expanded="true" />
+                <element signature="e#2275#2276#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,16 +138,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_de.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/chapter5/test_de.properties">
+      <file leaf-file-name="ZoneExamples.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/ZoneExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="294">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#723#724#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+              </folding>
             </state>
-          </provider>
-          <provider editor-type-id="ResourceBundle">
-            <state />
           </provider>
         </entry>
       </file>
@@ -190,6 +206,7 @@
         <option value="$PROJECT_DIR$/src/ocp_chapter5/PropertiesExamples.java" />
         <option value="$PROJECT_DIR$/src/ocp_chapter5/ResourceBundleExample.java" />
         <option value="$PROJECT_DIR$/src/ocp_chapter5/FormattingNumbersExamples.java" />
+        <option value="$PROJECT_DIR$/src/ocp_chapter5/FormattingDateAndTime.java" />
       </list>
     </option>
   </component>
@@ -422,106 +439,7 @@
       <recent name="D:\projects\ocp_main\src\ocp_chapter6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FormattingNumbersExamples.format">
-    <configuration default="false" name="ResourceBundleExample.resourceBundleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ocp_chapter5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ocp_root" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ocp_chapter5" />
-      <option name="MAIN_CLASS_NAME" value="ocp_chapter5.ResourceBundleExample" />
-      <option name="METHOD_NAME" value="resourceBundleTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ResourceBundleExample.defaultLocale" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ocp_chapter5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ocp_root" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ocp_chapter5" />
-      <option name="MAIN_CLASS_NAME" value="ocp_chapter5.ResourceBundleExample" />
-      <option name="METHOD_NAME" value="defaultLocale" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ResourceBundleExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ocp_chapter5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ocp_root" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ocp_chapter5" />
-      <option name="MAIN_CLASS_NAME" value="ocp_chapter5.ResourceBundleExample" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="All in ocp_root" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="ocp_root" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.FormattingDateAndTime">
     <configuration default="false" name="FormattingNumbersExamples.format" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -536,6 +454,110 @@
       <option name="MAIN_CLASS_NAME" value="ocp_chapter5.FormattingNumbersExamples" />
       <option name="METHOD_NAME" value="format" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FormattingNumbersExamples.parse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ocp_chapter5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ocp_root" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ocp_chapter5" />
+      <option name="MAIN_CLASS_NAME" value="ocp_chapter5.FormattingNumbersExamples" />
+      <option name="METHOD_NAME" value="parse" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FormattingNumbersExamples.parseException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ocp_chapter5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ocp_root" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ocp_chapter5" />
+      <option name="MAIN_CLASS_NAME" value="ocp_chapter5.FormattingNumbersExamples" />
+      <option name="METHOD_NAME" value="parseException" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FormattingDateAndTime.localizedDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ocp_chapter5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ocp_root" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ocp_chapter5" />
+      <option name="MAIN_CLASS_NAME" value="ocp_chapter5.FormattingDateAndTime" />
+      <option name="METHOD_NAME" value="localizedDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FormattingDateAndTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ocp_chapter5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ocp_root" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ocp_chapter5" />
+      <option name="MAIN_CLASS_NAME" value="ocp_chapter5.FormattingDateAndTime" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -746,19 +768,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ResourceBundleExample.resourceBundleTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ResourceBundleExample.defaultLocale" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ResourceBundleExample" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.All in ocp_root" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FormattingNumbersExamples.format" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FormattingNumbersExamples.format" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.FormattingNumbersExamples.parse" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FormattingNumbersExamples.parseException" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FormattingDateAndTime.localizedDate" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FormattingDateAndTime" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FormattingNumbersExamples.format" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in ocp_root" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ResourceBundleExample" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ResourceBundleExample.resourceBundleTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ResourceBundleExample.defaultLocale" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FormattingDateAndTime" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FormattingDateAndTime.localizedDate" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FormattingNumbersExamples.parseException" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FormattingNumbersExamples.parse" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.FormattingNumbersExamples.format" />
       </list>
     </recent_temporary>
   </component>
@@ -829,39 +851,46 @@
       <option name="project" value="LOCAL" />
       <updated>1460899608976</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="new test case: number formatting">
+      <created>1460900838668</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1460900838668</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_ocp_root - 2016.04.17 at 15h 29m 14s.xml">
-      <configuration name="All in ocp_root" configurationId="JUnit" />
+    <history-entry file="FormattingDateAndTime - 2016.04.17 at 23h 07m 34s.xml">
+      <configuration name="FormattingDateAndTime" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FormattingNumbersExamples_format - 2016.04.17 at 15h 43m 00s.xml">
-      <configuration name="FormattingNumbersExamples.format" configurationId="JUnit" />
+    <history-entry file="FormattingDateAndTime - 2016.04.17 at 23h 10m 30s.xml">
+      <configuration name="FormattingDateAndTime" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FormattingNumbersExamples_format - 2016.04.17 at 15h 44m 53s.xml">
-      <configuration name="FormattingNumbersExamples.format" configurationId="JUnit" />
+    <history-entry file="FormattingDateAndTime - 2016.04.17 at 23h 11m 47s.xml">
+      <configuration name="FormattingDateAndTime" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FormattingNumbersExamples_format - 2016.04.17 at 15h 45m 32s.xml">
-      <configuration name="FormattingNumbersExamples.format" configurationId="JUnit" />
+    <history-entry file="FormattingDateAndTime - 2016.04.17 at 23h 14m 06s.xml">
+      <configuration name="FormattingDateAndTime" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FormattingNumbersExamples_format - 2016.04.17 at 15h 46m 38s.xml">
-      <configuration name="FormattingNumbersExamples.format" configurationId="JUnit" />
+    <history-entry file="FormattingDateAndTime - 2016.04.17 at 23h 14m 40s.xml">
+      <configuration name="FormattingDateAndTime" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FormattingDateAndTime_localizedDate - 2016.04.17 at 23h 05m 52s.xml">
+      <configuration name="FormattingDateAndTime.localizedDate" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FormattingNumbersExamples_format - 2016.04.17 at 15h 46m 46s.xml">
       <configuration name="FormattingNumbersExamples.format" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PropertiesExamples - 2016.04.17 at 15h 19m 03s.xml">
-      <configuration name="PropertiesExamples" configurationId="JUnit" />
+    <history-entry file="FormattingNumbersExamples_format - 2016.04.17 at 22h 55m 11s.xml">
+      <configuration name="FormattingNumbersExamples.format" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResourceBundleExample - 2016.04.17 at 15h 26m 03s.xml">
-      <configuration name="ResourceBundleExample" configurationId="JUnit" />
+    <history-entry file="FormattingNumbersExamples_parse - 2016.04.17 at 22h 55m 17s.xml">
+      <configuration name="FormattingNumbersExamples.parse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResourceBundleExample_defaultLocale - 2016.04.17 at 15h 22m 15s.xml">
-      <configuration name="ResourceBundleExample.defaultLocale" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ResourceBundleExample_resourceBundleTest - 2016.04.17 at 15h 25m 52s.xml">
-      <configuration name="ResourceBundleExample.resourceBundleTest" configurationId="JUnit" />
+    <history-entry file="FormattingNumbersExamples_parseException - 2016.04.17 at 22h 56m 44s.xml">
+      <configuration name="FormattingNumbersExamples.parseException" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -919,7 +948,8 @@
     <MESSAGE value="refactor: code reuse for getting resources" />
     <MESSAGE value="new test cases: zone + daylight save" />
     <MESSAGE value="new test cases: bundles + properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="new test cases: bundles + properties" />
+    <MESSAGE value="new test case: number formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="new test case: number formatting" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -997,36 +1027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="29" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/InstantExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/LocaleExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/PeriodExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
@@ -1176,36 +1176,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/DateTimeExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/ZoneExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="25" column="33" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#763#764#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/DaylightSaveExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/chapter5/test_de.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1225,16 +1195,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/PropertiesExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="95" selection-start-line="12" selection-start-column="95" selection-end-line="12" selection-end-column="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/ResourceBundleExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -1247,11 +1207,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/FormattingNumbersExamples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="205">
+          <caret line="28" column="57" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/FormattingDateAndTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="63" column="60" selection-start-line="63" selection-start-column="60" selection-end-line="63" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1129#1130#0" expanded="true" />
+            <element signature="e#1233#1234#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#1936#1937#0" expanded="true" />
+            <element signature="e#1994#1995#0" expanded="true" />
+            <element signature="e#2102#2103#0" expanded="true" />
+            <element signature="e#2164#2165#0" expanded="true" />
+            <element signature="e#2217#2218#0" expanded="true" />
+            <element signature="e#2275#2276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/DaylightSaveExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/InstantExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/LocaleExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/PeriodExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/PropertiesExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="95" selection-start-line="12" selection-start-column="95" selection-end-line="12" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/ZoneExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/DateTimeExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
