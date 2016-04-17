@@ -3,6 +3,7 @@ package ocp_chapter9;
 import org.apache.commons.lang3.time.StopWatch;
 import org.junit.Assert;
 import org.junit.Test;
+import tools.Helper;
 
 import java.io.File;
 import java.io.IOException;
@@ -17,14 +18,14 @@ public class NIO2Attribute_vs_View {
     public void isViewReallyFasterThanSingleCalls() throws IOException {
         long attributeCalls=0;
         long viewcalls=0;
-        Path file = Paths.get(getFile("chapter9/lines.txt"));
+        Path file = Paths.get(Helper.getResource("chapter9/lines.txt"));
         for(int i=0;i<30;i++)
         {
             attributeCalls+=attributeCall(file);
             viewcalls+=viewCall(file);
         }
 
-        Path file2 = Paths.get(getFile("chapter9/lines2.txt"));
+        Path file2 = Paths.get(Helper.getResource("chapter9/lines2.txt"));
         for(int i=0;i<30;i++)
         {
             attributeCalls+=attributeCall(file2);
@@ -79,10 +80,5 @@ public class NIO2Attribute_vs_View {
         stopWatch.stop();
 
         return stopWatch.getNanoTime();
-    }
-
-    private String getFile(String path) {
-        ClassLoader classloader = Thread.currentThread().getContextClassLoader();
-        return classloader.getResource(path).getFile().substring(1);
     }
 }

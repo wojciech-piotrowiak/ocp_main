@@ -3,6 +3,7 @@ package ocp_chapter8;
 import org.apache.commons.lang3.time.StopWatch;
 import org.junit.Assert;
 import org.junit.Test;
+import tools.Helper;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
@@ -19,7 +20,7 @@ public class BufferExamples
     }
 
 	public long nonBufferExample() throws IOException {
-		try (FileInputStream f = new FileInputStream(getBigFileUrl().getFile()))
+		try (FileInputStream f = new FileInputStream(Helper.getResource("chapter8/bigtextfile.txt")))
 		{
             StopWatch stopWatch=new StopWatch();
             stopWatch.start();
@@ -34,8 +35,8 @@ public class BufferExamples
 	}
 
     public long bufferExample() throws IOException {
-		try (FileInputStream f = new FileInputStream(getBigFileUrl().getFile());
-				BufferedInputStream br = new BufferedInputStream(f))
+		try (FileInputStream f = new FileInputStream(Helper.getResource("chapter8/bigtextfile.txt"));
+			 BufferedInputStream br = new BufferedInputStream(f))
 		{
 
             StopWatch stopWatch=new StopWatch();
@@ -51,8 +52,8 @@ public class BufferExamples
 	}
 
 	public long bufferStreamExample() throws IOException {
-		try (FileInputStream f = new FileInputStream(getBigFileUrl().getFile());
-				BufferedInputStream br = new BufferedInputStream(f))
+		try (FileInputStream f = new FileInputStream(Helper.getResource("chapter8/bigtextfile.txt"));
+			 BufferedInputStream br = new BufferedInputStream(f))
 		{
 
 			int b;
@@ -66,10 +67,5 @@ public class BufferExamples
 			System.out.println(stopWatch.getTime() + " ms with buffer and buffered stream");
             return  stopWatch.getTime();
 		}
-	}
-
-    private URL getBigFileUrl() {
-        ClassLoader classLoader = getClass().getClassLoader();
-		return classLoader.getResource("chapter8/bigtextfile.txt");
 	}
 }

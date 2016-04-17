@@ -52,10 +52,6 @@ public class CloseYourStreamPlease {
                 out.flush();
             }
         }
-        catch (FileNotFoundException e)
-        {
-            e.printStackTrace();
-        }
         catch (IOException e)
         {
             e.printStackTrace();

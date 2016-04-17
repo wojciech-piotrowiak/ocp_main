@@ -27,7 +27,7 @@ public class SerializeExample
 		 serializeMe.myself=new ICannotSerializeMyself();
 
 		try (FileOutputStream fileOut = new FileOutputStream("target\\employee.ser");
-			 ObjectOutputStream out = new ObjectOutputStream(fileOut);)
+			 ObjectOutputStream out = new ObjectOutputStream(fileOut))
 		{
 			out.writeObject(serializeMe);
 		}

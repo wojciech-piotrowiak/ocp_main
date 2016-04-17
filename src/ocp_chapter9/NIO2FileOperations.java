@@ -2,6 +2,7 @@ package ocp_chapter9;
 
 import org.junit.Assert;
 import org.junit.Test;
+import tools.Helper;
 
 import java.io.IOException;
 import java.net.URL;
@@ -38,7 +39,6 @@ public class NIO2FileOperations {
 
 
     private String getFile(){
-        ClassLoader classloader = Thread.currentThread().getContextClassLoader();
-        return classloader.getResource("chapter9/lines.txt").getFile().substring(1);
+        return Helper.getResource("chapter/lines.txt");
     }
 }
