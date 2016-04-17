@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ecb7606-9dd2-4f67-ae48-f12d2942b2c0" name="Default" comment="new test cases: zone + daylight save">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/chapter5/test_de.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/chapter5/test_en.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ocp_chapter5/PropertiesExamples.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ocp_chapter5/ResourceBundleExample.java" />
+    <list default="true" id="0ecb7606-9dd2-4f67-ae48-f12d2942b2c0" name="Default" comment="new test cases: bundles + properties">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ocp_chapter5/FormattingNumbersExamples.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ocp_root.iws" />
@@ -28,18 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SerializeExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ocp_chapter8/serialize/SerializeExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ParallelStreamExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ocp_chapter7/ParallelStreamExample.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,11 +87,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResourceBundleExample.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ResourceBundleExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/ResourceBundleExample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="460">
-              <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+              <caret line="33" column="64" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FormattingNumbersExamples.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/FormattingNumbersExamples.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,8 +114,8 @@
       <file leaf-file-name="PropertiesExamples.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/PropertiesExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="14" column="93" selection-start-line="14" selection-start-column="93" selection-end-line="14" selection-end-column="93" />
+            <state relative-caret-position="204">
+              <caret line="12" column="95" selection-start-line="12" selection-start-column="95" selection-end-line="12" selection-end-column="95" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -192,6 +189,7 @@
         <option value="$PROJECT_DIR$/src/ocp_chapter5/PropertiesExample.java" />
         <option value="$PROJECT_DIR$/src/ocp_chapter5/PropertiesExamples.java" />
         <option value="$PROJECT_DIR$/src/ocp_chapter5/ResourceBundleExample.java" />
+        <option value="$PROJECT_DIR$/src/ocp_chapter5/FormattingNumbersExamples.java" />
       </list>
     </option>
   </component>
@@ -399,60 +397,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter9" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resource Bundle 'test'" />
-              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -478,7 +422,7 @@
       <recent name="D:\projects\ocp_main\src\ocp_chapter6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ResourceBundleExample">
+  <component name="RunManager" selected="JUnit.FormattingNumbersExamples.format">
     <configuration default="false" name="ResourceBundleExample.resourceBundleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -493,58 +437,6 @@
       <option name="MAIN_CLASS_NAME" value="ocp_chapter5.ResourceBundleExample" />
       <option name="METHOD_NAME" value="resourceBundleTest" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ResourceBundleExample.allKeysFromBundle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ocp_chapter5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ocp_root" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ocp_chapter5" />
-      <option name="MAIN_CLASS_NAME" value="ocp_chapter5.ResourceBundleExample" />
-      <option name="METHOD_NAME" value="allKeysFromBundle" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="PropertiesExamples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ocp_chapter5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ocp_root" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ocp_chapter5" />
-      <option name="MAIN_CLASS_NAME" value="ocp_chapter5.PropertiesExamples" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -597,6 +489,53 @@
       <option name="MAIN_CLASS_NAME" value="ocp_chapter5.ResourceBundleExample" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in ocp_root" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="ocp_root" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FormattingNumbersExamples.format" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ocp_chapter5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ocp_root" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ocp_chapter5" />
+      <option name="MAIN_CLASS_NAME" value="ocp_chapter5.FormattingNumbersExamples" />
+      <option name="METHOD_NAME" value="format" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -808,18 +747,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.ResourceBundleExample.resourceBundleTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ResourceBundleExample.allKeysFromBundle" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.PropertiesExamples" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ResourceBundleExample.defaultLocale" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ResourceBundleExample" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ResourceBundleExample.defaultLocale" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ResourceBundleExample" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.All in ocp_root" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FormattingNumbersExamples.format" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ResourceBundleExample" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ResourceBundleExample.resourceBundleTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ResourceBundleExample.defaultLocale" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PropertiesExamples" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ResourceBundleExample.allKeysFromBundle" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FormattingNumbersExamples.format" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.All in ocp_root" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ResourceBundleExample" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ResourceBundleExample.resourceBundleTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ResourceBundleExample.defaultLocale" />
       </list>
     </recent_temporary>
   </component>
@@ -883,12 +822,34 @@
       <option name="project" value="LOCAL" />
       <updated>1460895515953</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="new test cases: bundles + properties">
+      <created>1460899608976</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1460899608976</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DaylightSaveExample - 2016.04.17 at 14h 16m 20s.xml">
-      <configuration name="DaylightSaveExample" configurationId="JUnit" />
+    <history-entry file="All_in_ocp_root - 2016.04.17 at 15h 29m 14s.xml">
+      <configuration name="All in ocp_root" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FormattingNumbersExamples_format - 2016.04.17 at 15h 43m 00s.xml">
+      <configuration name="FormattingNumbersExamples.format" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FormattingNumbersExamples_format - 2016.04.17 at 15h 44m 53s.xml">
+      <configuration name="FormattingNumbersExamples.format" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FormattingNumbersExamples_format - 2016.04.17 at 15h 45m 32s.xml">
+      <configuration name="FormattingNumbersExamples.format" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FormattingNumbersExamples_format - 2016.04.17 at 15h 46m 38s.xml">
+      <configuration name="FormattingNumbersExamples.format" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FormattingNumbersExamples_format - 2016.04.17 at 15h 46m 46s.xml">
+      <configuration name="FormattingNumbersExamples.format" configurationId="JUnit" />
     </history-entry>
     <history-entry file="PropertiesExamples - 2016.04.17 at 15h 19m 03s.xml">
       <configuration name="PropertiesExamples" configurationId="JUnit" />
@@ -896,23 +857,8 @@
     <history-entry file="ResourceBundleExample - 2016.04.17 at 15h 26m 03s.xml">
       <configuration name="ResourceBundleExample" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ResourceBundleExample_allKeysFromBundle - 2016.04.17 at 15h 11m 43s.xml">
-      <configuration name="ResourceBundleExample.allKeysFromBundle" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ResourceBundleExample_allKeysFromBundle - 2016.04.17 at 15h 12m 07s.xml">
-      <configuration name="ResourceBundleExample.allKeysFromBundle" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ResourceBundleExample_defaultLocale - 2016.04.17 at 15h 22m 15s.xml">
       <configuration name="ResourceBundleExample.defaultLocale" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ResourceBundleExample_resourceBundleTest - 2016.04.17 at 15h 04m 26s.xml">
-      <configuration name="ResourceBundleExample.resourceBundleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ResourceBundleExample_resourceBundleTest - 2016.04.17 at 15h 04m 59s.xml">
-      <configuration name="ResourceBundleExample.resourceBundleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ResourceBundleExample_resourceBundleTest - 2016.04.17 at 15h 05m 41s.xml">
-      <configuration name="ResourceBundleExample.resourceBundleTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ResourceBundleExample_resourceBundleTest - 2016.04.17 at 15h 25m 52s.xml">
       <configuration name="ResourceBundleExample.resourceBundleTest" configurationId="JUnit" />
@@ -945,7 +891,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39896372" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.397482" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -972,7 +918,8 @@
     <MESSAGE value="refactor project structure-&gt;single src catalog with chapter packages" />
     <MESSAGE value="refactor: code reuse for getting resources" />
     <MESSAGE value="new test cases: zone + daylight save" />
-    <option name="LAST_COMMIT_MESSAGE" value="new test cases: zone + daylight save" />
+    <MESSAGE value="new test cases: bundles + properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="new test cases: bundles + properties" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -991,12 +938,13 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="getClass().getResource(&quot;chapter8\smalltextfile.txt&quot;)" language="JAVA" custom="" />
         <watch expression="getFile()" />
+        <watch expression="getFormattedNumberForLocale(Locale.CANADA_FRENCH, number)" />
       </configuration>
     </watches-manager>
   </component>
@@ -1173,7 +1121,7 @@
         <state relative-caret-position="187">
           <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1279,8 +1227,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/PropertiesExamples.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="93" selection-start-line="14" selection-start-column="93" selection-end-line="14" selection-end-column="93" />
+        <state relative-caret-position="204">
+          <caret line="12" column="95" selection-start-line="12" selection-start-column="95" selection-end-line="12" selection-end-column="95" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1290,7 +1238,17 @@
     <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/ResourceBundleExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
-          <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+          <caret line="33" column="64" selection-start-line="33" selection-start-column="64" selection-end-line="33" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/FormattingNumbersExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
