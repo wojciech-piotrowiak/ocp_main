@@ -5,6 +5,7 @@ import org.junit.Test;
 
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
+import java.time.zone.ZoneRulesException;
 
 public class ZoneExamples {
     @Test
@@ -17,5 +18,10 @@ public class ZoneExamples {
         int warsawHour = ZonedDateTime.now(warsawZoneId).getHour();
         int londonHour = ZonedDateTime.now(londonZoneID).getHour();
         Assert.assertTrue(londonHour < warsawHour);
+    }
+
+    @Test(expected = ZoneRulesException.class)
+    public void unknownZone() {
+        ZoneId.of("strangeName");
     }
 }
