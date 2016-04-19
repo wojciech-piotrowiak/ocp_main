@@ -1,6 +1,8 @@
 package ocp_chapter7;
 
 import org.apache.commons.lang3.time.StopWatch;
+import org.junit.Assert;
+import org.junit.Test;
 
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -9,26 +11,25 @@ import java.util.stream.Stream;
 
 public class ParallelStreamExample
 {
+    @Test
+    public void isParallelFasterThanNormal() {
+        long normal = filterAndCollect(getStream());
+        System.out.print("'Normal' stream " + normal);
 
-	public static void main(String... args)
-	{
-		System.out.print("'Normal' stream ");
-		filterAndCollect(getStream());
+        long parallel = filterAndCollect(getStream().parallel());
+        System.out.print("'Parallel' stream " + parallel);
+        Assert.assertTrue(normal > parallel);
+    }
 
-		System.out.print("'Parallel' stream ");
-		filterAndCollect(getStream().parallel());
-	}
-
-	private static void filterAndCollect(Stream<Integer> numbers)
-	{
+    private long filterAndCollect(Stream<Integer> numbers) {
         StopWatch stopWatch=new StopWatch();
         stopWatch.start();
 
 		final Set<Integer> collect = numbers.filter(i -> i.intValue() > 1).collect(Collectors.toSet());
 
 		stopWatch.stop();
-		System.out.println(stopWatch.getTime());
-	}
+        return stopWatch.getTime();
+    }
 
 	private static Stream<Integer> getStream()
 	{

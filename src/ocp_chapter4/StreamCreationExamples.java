@@ -1,4 +1,4 @@
-package ocp_chapter7;
+package ocp_chapter4;
 
 import org.junit.Assert;
 import org.junit.Test;
