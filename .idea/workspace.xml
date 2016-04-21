@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ecb7606-9dd2-4f67-ae48-f12d2942b2c0" name="Default" comment="rest of functional interfaces">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ocp_chapter4/functionalinterfaces/ConsumersExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ocp_chapter4/functionalinterfaces/FunctionsExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ocp_chapter4/functionalinterfaces/PredicatesExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ocp_chapter4/functionalinterfaces/UnaryExamples.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ocp_chapter4/streams/IntermediateOperationExamples.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ocp_chapter4/streams/TerminalOperationExamples.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ocp_chapter4/streams/StreamCreationExamples.java" afterPath="$PROJECT_DIR$/src/ocp_chapter4/streams/StreamCreationExamples.java" />
     </list>
     <ignored path="ocp_root.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,45 +27,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DateTimeExamples.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/DateTimeExamples.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResourceBundleExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/ResourceBundleExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="49" column="84" selection-start-line="49" selection-start-column="84" selection-end-line="49" selection-end-column="84" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BasicStreamExamples.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/BasicStreamExamples.java">
+        <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/streams/BasicStreamExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="313">
+              <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParallelStreamExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ocp_chapter7/ParallelStreamExample.java">
+      <file leaf-file-name="TerminalOperationExamples.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/streams/TerminalOperationExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            <state relative-caret-position="296">
+              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntermediateOperationExamples.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/streams/IntermediateOperationExamples.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -96,11 +83,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PredicatesExample.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PredicatesExample.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/functionalinterfaces/PredicatesExample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="21" column="84" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OptionalExamples.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/OptionalExamples.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,10 +132,10 @@
         </entry>
       </file>
       <file leaf-file-name="StreamCreationExamples.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/StreamCreationExamples.java">
+        <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/streams/StreamCreationExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -204,6 +203,11 @@
         <option value="$PROJECT_DIR$/src/ocp_chapter4/functionalinterfaces/FunctionsExample.java" />
         <option value="$PROJECT_DIR$/src/ocp_chapter4/functionalinterfaces/UnaryExamples.java" />
         <option value="$PROJECT_DIR$/src/ocp_chapter4/functionalinterfaces/PredicatesExample.java" />
+        <option value="$PROJECT_DIR$/src/ocp_chapter4/OptionalExample.java" />
+        <option value="$PROJECT_DIR$/src/ocp_chapter4/streams/BasicStreamExamples.java" />
+        <option value="$PROJECT_DIR$/src/ocp_chapter4/streams/StreamCreationExamples.java" />
+        <option value="$PROJECT_DIR$/src/ocp_chapter4/streams/IntermediateOperationExamples.java" />
+        <option value="$PROJECT_DIR$/src/ocp_chapter4/streams/TerminalOperationExamples.java" />
       </list>
     </option>
   </component>
@@ -445,7 +449,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="functionalinterfaces" />
+              <option name="myItemId" value="streams" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -472,19 +476,19 @@
       <recent name="D:\projects\ocp_main\src\ocp_chapter6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ocp_chapter4 in ocp_root">
-    <configuration default="false" name="FunctionsExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TerminalOperationExamples.count">
+    <configuration default="false" name="StreamCreationExamples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ocp_chapter4.functionalinterfaces.*" />
+          <option name="PATTERN" value="ocp_chapter4.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="ocp_root" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ocp_chapter4.functionalinterfaces" />
-      <option name="MAIN_CLASS_NAME" value="ocp_chapter4.functionalinterfaces.FunctionsExample" />
+      <option name="PACKAGE_NAME" value="ocp_chapter4.streams" />
+      <option name="MAIN_CLASS_NAME" value="ocp_chapter4.streams.StreamCreationExamples" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -499,18 +503,70 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="PredicatesExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TerminalOperationExamples.minMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ocp_chapter4.functionalinterfaces.*" />
+          <option name="PATTERN" value="ocp_chapter4.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="ocp_root" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ocp_chapter4.functionalinterfaces" />
-      <option name="MAIN_CLASS_NAME" value="ocp_chapter4.functionalinterfaces.PredicatesExample" />
+      <option name="PACKAGE_NAME" value="ocp_chapter4.streams" />
+      <option name="MAIN_CLASS_NAME" value="ocp_chapter4.streams.TerminalOperationExamples" />
+      <option name="METHOD_NAME" value="minMax" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TerminalOperationExamples.usageOfTerminatedStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ocp_chapter4.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ocp_root" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ocp_chapter4.streams" />
+      <option name="MAIN_CLASS_NAME" value="ocp_chapter4.streams.TerminalOperationExamples" />
+      <option name="METHOD_NAME" value="usageOfTerminatedStream" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TerminalOperationExamples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ocp_chapter4.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ocp_root" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ocp_chapter4.streams" />
+      <option name="MAIN_CLASS_NAME" value="ocp_chapter4.streams.TerminalOperationExamples" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -525,72 +581,20 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="UnaryExamples.unaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TerminalOperationExamples.count" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ocp_chapter4.functionalinterfaces.*" />
+          <option name="PATTERN" value="ocp_chapter4.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="ocp_root" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ocp_chapter4.functionalinterfaces" />
-      <option name="MAIN_CLASS_NAME" value="ocp_chapter4.functionalinterfaces.UnaryExamples" />
-      <option name="METHOD_NAME" value="unaryTest" />
+      <option name="PACKAGE_NAME" value="ocp_chapter4.streams" />
+      <option name="MAIN_CLASS_NAME" value="ocp_chapter4.streams.TerminalOperationExamples" />
+      <option name="METHOD_NAME" value="count" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="UnaryExamples.BinaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ocp_chapter4.functionalinterfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ocp_root" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ocp_chapter4.functionalinterfaces" />
-      <option name="MAIN_CLASS_NAME" value="ocp_chapter4.functionalinterfaces.UnaryExamples" />
-      <option name="METHOD_NAME" value="BinaryTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ocp_chapter4 in ocp_root" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ocp_chapter4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ocp_root" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ocp_chapter4" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -801,19 +805,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FunctionsExample" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PredicatesExample" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UnaryExamples.unaryTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.UnaryExamples.BinaryTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ocp_chapter4 in ocp_root" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.StreamCreationExamples" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TerminalOperationExamples.minMax" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TerminalOperationExamples.usageOfTerminatedStream" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TerminalOperationExamples" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TerminalOperationExamples.count" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ocp_chapter4 in ocp_root" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UnaryExamples.BinaryTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UnaryExamples.unaryTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PredicatesExample" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.FunctionsExample" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TerminalOperationExamples.count" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TerminalOperationExamples" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TerminalOperationExamples.usageOfTerminatedStream" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TerminalOperationExamples.minMax" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.StreamCreationExamples" />
       </list>
     </recent_temporary>
   </component>
@@ -912,39 +916,53 @@
       <option name="project" value="LOCAL" />
       <updated>1461043590787</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="rest of functional interfaces">
+      <created>1461100768278</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1461100768278</updated>
+    </task>
+    <task id="LOCAL-00014" summary="optional examples">
+      <created>1461154492359</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1461154492359</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConsumersExample - 2016.04.19 at 22h 49m 40s.xml">
-      <configuration name="ConsumersExample" configurationId="JUnit" />
+    <history-entry file="OptionalExample - 2016.04.20 at 14h 13m 18s.xml">
+      <configuration name="OptionalExample" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FunctionsExample - 2016.04.19 at 23h 05m 40s.xml">
-      <configuration name="FunctionsExample" configurationId="JUnit" />
+    <history-entry file="OptionalExample_optionalGetEmpty - 2016.04.20 at 14h 12m 38s.xml">
+      <configuration name="OptionalExample.optionalGetEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FunctionsExample_functionTest - 2016.04.19 at 23h 03m 52s.xml">
-      <configuration name="FunctionsExample.functionTest" configurationId="JUnit" />
+    <history-entry file="StreamCreationExamples - 2016.04.21 at 08h 02m 48s.xml">
+      <configuration name="StreamCreationExamples" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PredicatesExample - 2016.04.19 at 23h 06m 45s.xml">
-      <configuration name="PredicatesExample" configurationId="JUnit" />
+    <history-entry file="TerminalOperationExamples - 2016.04.21 at 08h 40m 35s.xml">
+      <configuration name="TerminalOperationExamples" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PredicatesExample_test - 2016.04.19 at 22h 54m 16s.xml">
-      <configuration name="PredicatesExample.test" configurationId="JUnit" />
+    <history-entry file="TerminalOperationExamples - 2016.04.21 at 08h 41m 07s.xml">
+      <configuration name="TerminalOperationExamples" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PredicatesExample_test - 2016.04.19 at 22h 55m 01s.xml">
-      <configuration name="PredicatesExample.test" configurationId="JUnit" />
+    <history-entry file="TerminalOperationExamples_count - 2016.04.21 at 08h 41m 34s.xml">
+      <configuration name="TerminalOperationExamples.count" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SupplierExample_supplierExample - 2016.04.19 at 07h 22m 22s.xml">
-      <configuration name="SupplierExample.supplierExample" configurationId="JUnit" />
+    <history-entry file="TerminalOperationExamples_minMax - 2016.04.21 at 08h 34m 02s.xml">
+      <configuration name="TerminalOperationExamples.minMax" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnaryExamples_BinaryTest - 2016.04.19 at 23h 15m 53s.xml">
-      <configuration name="UnaryExamples.BinaryTest" configurationId="JUnit" />
+    <history-entry file="TerminalOperationExamples_minMax - 2016.04.21 at 08h 37m 47s.xml">
+      <configuration name="TerminalOperationExamples.minMax" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnaryExamples_unaryTest - 2016.04.19 at 23h 12m 41s.xml">
-      <configuration name="UnaryExamples.unaryTest" configurationId="JUnit" />
+    <history-entry file="TerminalOperationExamples_minMax - 2016.04.21 at 08h 38m 17s.xml">
+      <configuration name="TerminalOperationExamples.minMax" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ocp_chapter4_in_ocp_root - 2016.04.19 at 23h 18m 59s.xml">
-      <configuration name="ocp_chapter4 in ocp_root" configurationId="JUnit" />
+    <history-entry file="TerminalOperationExamples_usageOfTerminatedStream - 2016.04.21 at 08h 40m 19s.xml">
+      <configuration name="TerminalOperationExamples.usageOfTerminatedStream" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -966,10 +984,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32553956" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32553956" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25816485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25816485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1007,7 +1025,8 @@
     <MESSAGE value="fallback resource example + locale builder example" />
     <MESSAGE value="moved files + supplier example" />
     <MESSAGE value="rest of functional interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="rest of functional interfaces" />
+    <MESSAGE value="optional examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="optional examples" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1041,35 +1060,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/ZoneExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#723#724#0" expanded="false" />
-            <element signature="e#763#764#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/DateTimeExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/DaylightSaveExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/InstantExamples.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1383,27 +1373,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/StreamCreationExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/BasicStreamExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ocp_chapter7/ParallelStreamExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1451,6 +1427,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="84" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/OptionalExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/streams/StreamCreationExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/streams/BasicStreamExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/streams/IntermediateOperationExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/streams/TerminalOperationExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

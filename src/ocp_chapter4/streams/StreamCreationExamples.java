@@ -10,6 +10,12 @@ import java.util.stream.Stream;
 
 public class StreamCreationExamples
 {
+    //finite examples
+    @Test
+    public void empty() {
+        Stream<Object> empty = Stream.empty();
+        Assert.assertTrue(empty.count() == 0);
+    }
 
 	@Test
 	public void array()
@@ -29,6 +35,7 @@ public class StreamCreationExamples
         Assert.assertEquals(list.stream().count(), 3);
     }
 
+    //infinite but limited examples
     @Test
     public void generate()
     {
