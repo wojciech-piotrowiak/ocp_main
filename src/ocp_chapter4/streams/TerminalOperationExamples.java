@@ -3,9 +3,12 @@ package ocp_chapter4.streams;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.List;
 import java.util.Optional;
+import java.util.TreeSet;
 import java.util.function.BinaryOperator;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class TerminalOperationExamples {
@@ -85,5 +88,18 @@ public class TerminalOperationExamples {
         BinaryOperator<Integer> op = (a, b) -> a + b;
         Stream<Integer> stream = Stream.of(1, 4, 4, 2, 3);
         Assert.assertEquals(14, stream.reduce(op).get().intValue());
+    }
+
+    @Test
+    public void collect() {
+        //reduction:yes
+        //does not terminate infinite stream
+        Stream<Integer> stream = Stream.of(1, 4, 4, 2, 3);
+        List<Integer> collect = stream.collect(Collectors.toList());
+        Assert.assertEquals(5, collect.size());
+
+        Stream<Integer> treeSetCollect = Stream.of(1, 4, 4, 2, 2);
+        TreeSet<Object> treeCollect = treeSetCollect.collect(TreeSet::new, TreeSet::add, TreeSet::addAll);
+        Assert.assertEquals(3, treeCollect.size());
     }
 }
