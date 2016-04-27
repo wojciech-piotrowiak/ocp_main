@@ -1,4 +1,4 @@
-package ocp_chapter4.streams;
+package ocp_chapter4.streams.primitive;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -6,7 +6,7 @@ import org.junit.Test;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
 
-public class PrimitiveStreamsExample {
+public class BasicExamples {
 
     @Test
     public void doubleStreamTest() {
