@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ecb7606-9dd2-4f67-ae48-f12d2942b2c0" name="Default" comment="advanced examples">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ocp_chapter1/ExamHints.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ocp_chapter3/ExamHints.java" />
+    <list default="true" id="0ecb7606-9dd2-4f67-ae48-f12d2942b2c0" name="Default" comment="my hints from notes">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ocp_chapter7/CyclicBarrierTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ocp_chapter7/InterruptedTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ocp_chapter7/JoinTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ocp_chapter7/SingleExecutorTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ocp_chapter7/ThreadPoolTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ocp_chapter7/WaitNotifyTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ocp_chapter7/operations/HelloOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ocp_chapter7/operations/LongOperation.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ocp_chapter7/ParallelStreamExample.java" afterPath="$PROJECT_DIR$/src/ocp_chapter7/ParallelStreamExample.java" />
     </list>
     <ignored path="ocp_root.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ExamHints.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ocp_chapter1/ExamHints.java">
+      <file leaf-file-name="ThreadPoolTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ocp_chapter7/ThreadPoolTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="0">
+              <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,10 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ocp_chapter5/src/test/InstantExamples.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter5/DateTimeExamples.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter5/DurationExamples.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter5/InstantExamples.java" />
         <option value="$PROJECT_DIR$/src/ocp_chapter5/LocaleExamples.java" />
         <option value="$PROJECT_DIR$/src/ocp_chapter5/PeriodExamples.java" />
         <option value="$PROJECT_DIR$/src/ocp_chapter7/BasicStreamExamples.java" />
@@ -89,7 +92,6 @@
         <option value="$PROJECT_DIR$/src/ocp_chapter5/ResourceBundleExample.java" />
         <option value="$PROJECT_DIR$/src/ocp_chapter4/StreamCreationExamples.java" />
         <option value="$PROJECT_DIR$/src/ocp_chapter4/BasicStreamExamples.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter7/ParallelStreamExample.java" />
         <option value="$PROJECT_DIR$/src/ocp_chapter4/functionalinterfaces/SupplierExample.java" />
         <option value="$PROJECT_DIR$/src/ocp_chapter4/functionalinterfaces/ConsumersExample.java" />
         <option value="$PROJECT_DIR$/src/ocp_chapter4/functionalinterfaces/FunctionsExample.java" />
@@ -109,6 +111,11 @@
         <option value="$PROJECT_DIR$/src/ocp_chapter4/streams/AdvancedExamples.java" />
         <option value="$PROJECT_DIR$/src/ocp_chapter3/ExamHints.java" />
         <option value="$PROJECT_DIR$/src/ocp_chapter1/ExamHints.java" />
+        <option value="$PROJECT_DIR$/src/ocp_chapter7/ParallelStreamExample.java" />
+        <option value="$PROJECT_DIR$/src/ocp_chapter7/CyclicBarrierTest.java" />
+        <option value="$PROJECT_DIR$/src/ocp_chapter7/SingleExecutorTest.java" />
+        <option value="$PROJECT_DIR$/src/ocp_chapter7/JoinTest.java" />
+        <option value="$PROJECT_DIR$/src/ocp_chapter7/ThreadPoolTest.java" />
       </list>
     </option>
   </component>
@@ -149,8 +156,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -236,6 +241,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocp_chapter8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -269,7 +278,87 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="ocp_chapter7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SingleExecutorTest.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocp_root" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocp_main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocp_chapter7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="InterruptedTest.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocp_root" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocp_main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocp_chapter7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="operations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocp_root" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocp_main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="ocp_chapter6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocp_root" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ocp_main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -351,6 +440,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -365,6 +456,9 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ocp_chapter8" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ocp_chapter7" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects\ocp_main\resources\chapter9" />
       <recent name="D:\projects\ocp_main\resources\chapter8" />
@@ -373,33 +467,7 @@
       <recent name="D:\projects\ocp_main\src\ocp_chapter6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ExamHints">
-    <configuration default="false" name="AdvancedExamples.collectorExamples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ocp_chapter4.streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ocp_root" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ocp_chapter4.streams" />
-      <option name="MAIN_CLASS_NAME" value="ocp_chapter4.streams.AdvancedExamples" />
-      <option name="METHOD_NAME" value="collectorExamples" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ocp_chapter7 in ocp_root">
     <configuration default="false" name="ExamHints.streamHints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -492,6 +560,32 @@
       <option name="MAIN_CLASS_NAME" value="ocp_chapter1.ExamHints" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ocp_chapter7 in ocp_root" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ocp_chapter7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="ocp_root" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ocp_chapter7" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -702,19 +796,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.AdvancedExamples.collectorExamples" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ExamHints.streamHints" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ExamHints.forEachExample" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ExamHints.instanceofExamples" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ExamHints" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ExamHints.streamHints" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ExamHints.forEachExample" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ExamHints.instanceofExamples" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ExamHints" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ocp_chapter7 in ocp_root" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ExamHints" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ExamHints.instanceofExamples" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ExamHints.forEachExample" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ExamHints.streamHints" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AdvancedExamples.collectorExamples" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ocp_chapter7 in ocp_root" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ExamHints" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ExamHints.instanceofExamples" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ExamHints.forEachExample" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ExamHints.streamHints" />
       </list>
     </recent_temporary>
   </component>
@@ -876,13 +970,17 @@
       <option name="project" value="LOCAL" />
       <updated>1464037222753</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="my hints from notes">
+      <created>1465677306273</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1465677306273</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AdvancedExamples_optional - 2016.05.23 at 22h 36m 15s.xml">
-      <configuration name="AdvancedExamples.optional" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ExamHints - 2016.06.11 at 22h 33m 44s.xml">
       <configuration name="ExamHints" configurationId="JUnit" />
     </history-entry>
@@ -910,6 +1008,9 @@
     <history-entry file="StreamPrintingExamples_peekSolution - 2016.04.24 at 22h 40m 02s.xml">
       <configuration name="StreamPrintingExamples.peekSolution" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ocp_chapter7_in_ocp_root - 2016.06.20 at 22h 11m 44s.xml">
+      <configuration name="ocp_chapter7 in ocp_root" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -925,7 +1026,7 @@
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291367" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791728" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -937,7 +1038,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39734122" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39734122" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1001,7 +1102,8 @@
     <MESSAGE value="stream printing examples" />
     <MESSAGE value="primitive stream examples" />
     <MESSAGE value="advanced examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="advanced examples" />
+    <MESSAGE value="my hints from notes" />
+    <option name="LAST_COMMIT_MESSAGE" value="my hints from notes" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1041,38 +1143,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/time/format/DateTimeFormatter.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/time/temporal/ChronoUnit.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/time/temporal/IsoFields.java" />
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/DurationExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter8/serialize/ICannotSerializeMyself.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/chapter8/bigtextfile.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter8/CloseYourStreamPlease.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ocp_chapter10/SetupDerbyDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1243,13 +1313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter7/ParallelStreamExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/functionalinterfaces/SupplierExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1303,9 +1366,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1394">
           <caret line="103" column="5" selection-start-line="103" selection-start-column="5" selection-end-line="103" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1314,13 +1374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#307#308#0" expanded="false" />
-            <element signature="e#391#392#0" expanded="false" />
-            <element signature="e#431#432#0" expanded="false" />
-            <element signature="e#501#502#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1378,13 +1431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
           <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
-          <folding>
-            <marker date="1464037206757" expanded="true" signature="38:225" placeholder="..." />
-            <marker date="1464037206757" expanded="true" signature="227:273" placeholder="/**...*/" />
-            <marker date="1464037206757" expanded="true" signature="346:563" placeholder="{...}" />
-            <marker date="1464037206757" expanded="true" signature="602:892" placeholder="{...}" />
-            <marker date="1464037206757" expanded="true" signature="940:1324" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1392,19 +1438,112 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocp_chapter7/ParallelStreamExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
           <folding>
-            <marker date="1465676915400" expanded="true" signature="30:103" placeholder="..." />
-            <marker date="1465676915400" expanded="true" signature="105:151" placeholder="/**...*/" />
-            <marker date="1465676915400" expanded="true" signature="217:481" placeholder="{...}" />
-            <marker date="1465676915400" expanded="true" signature="530:712" placeholder="{...}" />
+            <marker date="1466453098587" expanded="false" signature="30:209" placeholder="..." />
+            <marker date="1466453098587" expanded="true" signature="306:593" placeholder="{...}" />
+            <marker date="1466453098587" expanded="true" signature="654:889" placeholder="{...}" />
+            <marker date="1466453098587" expanded="true" signature="936:1020" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ocp_chapter1/ExamHints.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="210">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <folding>
+            <marker date="1465677293033" expanded="true" signature="30:70" placeholder="..." />
+            <marker date="1465677293033" expanded="true" signature="72:118" placeholder="/**...*/" />
+            <marker date="1465677293033" expanded="true" signature="191:447" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocp_chapter7/CyclicBarrierTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <marker date="1466453278753" expanded="false" signature="30:201" placeholder="..." />
+            <marker date="1466453278753" expanded="true" signature="280:886" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocp_chapter7/InterruptedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <marker date="1466453278579" expanded="true" signature="52:1034" placeholder="{...}" />
+            <marker date="1466453278579" expanded="true" signature="123:739" placeholder="{...}" />
+            <marker date="1466453278579" expanded="true" signature="818:1031" placeholder="{...}" />
+            <marker date="1466453278579" expanded="true" signature="1066:1241" placeholder="{...}" />
+            <marker date="1466453278579" expanded="true" signature="1099:1239" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocp_chapter7/operations/LongOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <marker date="1466453278864" expanded="true" signature="114:205" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocp_chapter7/operations/HelloOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1466453278925" expanded="true" signature="169:533" placeholder="{...}" />
+            <marker date="1466453278925" expanded="true" signature="591:634" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocp_chapter7/SingleExecutorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+          <folding>
+            <marker date="1466453379033" expanded="true" signature="31:101" placeholder="..." />
+            <marker date="1466453379033" expanded="true" signature="135:2290" placeholder="{...}" />
+            <marker date="1466453379033" expanded="true" signature="236:322" placeholder="{...}" />
+            <marker date="1466453379033" expanded="true" signature="414:1033" placeholder="{...}" />
+            <marker date="1466453379033" expanded="true" signature="1126:1681" placeholder="{...}" />
+            <marker date="1466453379033" expanded="true" signature="1771:2288" placeholder="{...}" />
+            <marker date="1466453379033" expanded="true" signature="2187:2282" placeholder="//..." />
+            <marker date="1466453379033" expanded="true" signature="2338:2470" placeholder="{...}" />
+            <marker date="1466453379033" expanded="true" signature="2396:2468" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocp_chapter7/JoinTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <marker date="1466453428496" expanded="true" signature="165:595" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocp_chapter7/ThreadPoolTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
