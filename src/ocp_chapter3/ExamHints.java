@@ -4,9 +4,9 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Arrays;
+import java.util.Hashtable;
+import java.util.TreeSet;
 import java.util.stream.Stream;
-
-import static javafx.scene.input.KeyCode.T;
 
 /**
  * Created by wpiotrowiak on 11.06.16.
@@ -33,6 +33,24 @@ public class ExamHints {
         test test = new test();
         test.setT("1");
         Assert.assertEquals("1", test.get());
+    }
+
+    @Test(expected = NullPointerException.class)
+    public void nullAsHashTableValue() {
+        Hashtable<String, String> hashtable = new Hashtable<>();
+        hashtable.put("", null);
+    }
+
+    @Test(expected = NullPointerException.class)
+    public void nullAsHashTableKey() {
+        Hashtable<String, String> hashtable = new Hashtable<>();
+        hashtable.put(null, "22");
+    }
+
+    @Test(expected = NullPointerException.class)
+    public void nullAsTreeSetKey() {
+        TreeSet<String> set = new TreeSet<>();
+        set.add(null);
     }
 
 

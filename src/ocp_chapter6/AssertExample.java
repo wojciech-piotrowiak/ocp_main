@@ -1,6 +1,5 @@
 package ocp_chapter6;
 
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class AssertExample {
@@ -14,6 +13,7 @@ public class AssertExample {
     public void assertsEnabled() {
         //magic trick to turn on assertions
         ClassLoader.getSystemClassLoader().setDefaultAssertionStatus(true);
+        assert (3 > 5) : "3>5";
         assert 3 < 2;
     }
 
