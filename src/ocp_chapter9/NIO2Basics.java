@@ -66,4 +66,13 @@ public class NIO2Basics
         //on windows
         Assert.assertEquals(path.getRoot().toString(),"\\");
     }
+
+    @Test
+    public void pathEquals() {
+        final Path path1 = Paths.get("root", "dir", "example.txt");
+        final Path path2 = Paths.get("\\root\\dir\\example.txt");
+
+        //equals does not check real files
+        Assert.assertFalse(path1.equals(path2));
+    }
 }
