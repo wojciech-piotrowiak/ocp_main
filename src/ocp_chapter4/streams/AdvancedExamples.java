@@ -5,6 +5,7 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -43,6 +44,34 @@ public class AdvancedExamples {
         Stream<String> nameStream = Stream.of("kate", "jonh", "lucy");
         Double collect1 = nameStream.collect(Collectors.averagingInt(String::length));
         Assert.assertEquals(4, collect1.intValue());
+    }
+
+    @Test
+    public void partitioningBy() {
+        Stream<String> str = Stream.of("a", "bb");
+        Map<Boolean, List<String>> collect = str.collect(Collectors.partitioningBy(s -> s.length() == 1));
+        Assert.assertTrue(collect.get(true).contains("a"));
+        Assert.assertTrue(collect.get(false).contains("bb"));
+
+        //keys with empty list are created
+        Stream<String> empty = Stream.empty();
+        Map<Boolean, List<String>> collectEmpty = empty.collect(Collectors.partitioningBy(s -> s.length() == 1));
+        Assert.assertTrue(collectEmpty.get(true).isEmpty());
+        Assert.assertTrue(collectEmpty.get(false).isEmpty());
+    }
+
+    @Test
+    public void groupingBy() {
+        Stream<String> str = Stream.of("a", "bb");
+        Map<Boolean, List<String>> collect = str.collect(Collectors.groupingBy(s -> s.length() == 1));
+        Assert.assertTrue(collect.get(true).contains("a"));
+        Assert.assertTrue(collect.get(false).contains("bb"));
+
+        //keys are not created
+        Stream<String> empty = Stream.empty();
+        Map<Boolean, List<String>> collectEmpty = empty.collect(Collectors.groupingBy(s -> s.length() == 1));
+        Assert.assertNull(collectEmpty.get(true));
+        Assert.assertNull(collectEmpty.get(false));
     }
 
 }
