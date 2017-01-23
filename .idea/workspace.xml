@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ecb7606-9dd2-4f67-ae48-f12d2942b2c0" name="Default" comment="exceptions to memorize">
+    <list default="true" id="0ecb7606-9dd2-4f67-ae48-f12d2942b2c0" name="Default" comment="grouping and partitioning examples">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ocp_chapter4/streams/AdvancedExamples.java" afterPath="$PROJECT_DIR$/src/ocp_chapter4/streams/AdvancedExamples.java" />
     </list>
@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DateTimeExamples.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/DateTimeExamples.java">
+      <file leaf-file-name="AdvancedExamples.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/streams/AdvancedExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="599">
+              <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -400,7 +400,7 @@
       <recent name="D:\projects\ocp_main\src\ocp_chapter6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AdvancedExamples.groupingBy">
+  <component name="RunManager" selected="JUnit.AdvancedExamples.partitioningBy">
     <configuration default="false" name="ExceptionClasses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -737,8 +737,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AdvancedExamples.groupingBy" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AdvancedExamples.partitioningBy" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AdvancedExamples.partitioningBy" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AdvancedExamples.groupingBy" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.NIO2Basics.pathEquals" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.ExceptionClasses" />
         <item index="4" class="java.lang.String" itemvalue="JUnit.ExceptionClasses.checkedExceptionsToMemorize" />
@@ -952,7 +952,14 @@
       <option name="project" value="LOCAL" />
       <updated>1484257899038</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="grouping and partitioning examples">
+      <created>1485115843175</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1485115843175</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -968,8 +975,8 @@
     <history-entry file="AdvancedExamples_partitioningBy - 2017.01.22 at 21h 07m 20s.xml">
       <configuration name="AdvancedExamples.partitioningBy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClosableExamples_test - 2016.12.27 at 22h 18m 05s.xml">
-      <configuration name="ClosableExamples.test" configurationId="JUnit" />
+    <history-entry file="AdvancedExamples_partitioningBy - 2017.01.23 at 22h 17m 34s.xml">
+      <configuration name="AdvancedExamples.partitioningBy" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ExceptionClasses - 2016.12.28 at 14h 13m 53s.xml">
       <configuration name="ExceptionClasses" configurationId="JUnit" />
@@ -1058,7 +1065,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Duration+Period+Zone examples" />
     <MESSAGE value="instant examples" />
     <MESSAGE value="refactor project structure-&gt;single src catalog with chapter packages" />
     <MESSAGE value="refactor: code reuse for getting resources" />
@@ -1083,7 +1089,8 @@
     <MESSAGE value="collection+assertion+closable hints" />
     <MESSAGE value="exceptions to memorize" />
     <MESSAGE value="equals with Path interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="equals with Path interface" />
+    <MESSAGE value="grouping and partitioning examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="grouping and partitioning examples" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1572,22 +1579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/streams/AdvancedExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="55" column="42" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
-          <folding>
-            <marker date="1485115822510" expanded="false" signature="38:247" placeholder="..." />
-            <marker date="1485115822510" expanded="true" signature="249:295" placeholder="/**...*/" />
-            <marker date="1485115822510" expanded="true" signature="368:585" placeholder="{...}" />
-            <marker date="1485115822510" expanded="true" signature="624:914" placeholder="{...}" />
-            <marker date="1485115822510" expanded="true" signature="962:1346" placeholder="{...}" />
-            <marker date="1485115822510" expanded="true" signature="1391:2006" placeholder="{...}" />
-            <marker date="1485115822510" expanded="true" signature="2047:2622" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/streams/StreamCreationExamples.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-76">
@@ -1611,6 +1602,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <marker date="1464034616629" expanded="false" signature="30:264" placeholder="..." />
+            <marker date="1464034616629" expanded="true" signature="339:711" placeholder="{...}" />
+            <marker date="1464034616629" expanded="true" signature="755:1081" placeholder="{...}" />
+            <marker date="1464034616629" expanded="true" signature="1124:1778" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/streams/AdvancedExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
           <folding />
         </state>
       </provider>

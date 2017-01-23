@@ -72,6 +72,11 @@ public class AdvancedExamples {
         Map<Boolean, List<String>> collectEmpty = empty.collect(Collectors.groupingBy(s -> s.length() == 1));
         Assert.assertNull(collectEmpty.get(true));
         Assert.assertNull(collectEmpty.get(false));
+
+        //keys are not only boolean
+        Stream<Integer> ints = Stream.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15);
+        Map<Integer, List<Integer>> intMap = ints.collect(Collectors.groupingBy(t -> t % 3));
+        System.out.println(intMap);
     }
 
 }
