@@ -75,4 +75,13 @@ public class NIO2Basics
         //equals does not check real files
         Assert.assertFalse(path1.equals(path2));
     }
+
+    @Test
+    public void resolve() {
+        final Path path1 = Paths.get("/X_x");
+        final Path path2 = Paths.get("9999example.txt");
+
+        //resolve does not check real files
+        Assert.assertEquals("/X_x/9999example.txt", path1.resolve(path2).toString());
+    }
 }
