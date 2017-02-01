@@ -22,6 +22,7 @@ public class ClosableExamples {
         try (ClosableExample closableExamples = new ClosableExample("1");
              AutoClosableExample autoClosableExample = new AutoClosableExample("2")) {
 
+
         } catch (Exception e) {
             e.printStackTrace();
         }

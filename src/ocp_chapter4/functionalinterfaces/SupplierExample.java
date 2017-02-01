@@ -23,5 +23,12 @@ public class SupplierExample {
         System.out.println(dateSupplier.get());
         System.out.println(dateTimeSupplier.get());
 
+        //semicolon in anonymous supplier is not needed
+        iNeedSupplier(() -> "");
+
+    }
+
+    public void iNeedSupplier(Supplier s) {
+
     }
 }
