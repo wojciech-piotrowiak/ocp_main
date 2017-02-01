@@ -53,6 +53,11 @@ public class ExamHints {
         set.add(null);
     }
 
+    @Test
+    public void duplicatedTreeMap() {
+
+    }
+
 
     class test<T> {
         T value;

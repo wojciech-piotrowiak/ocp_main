@@ -1,9 +1,8 @@
 package ocp_chapter10;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.Statement;
+import org.junit.Test;
+
+import java.sql.*;
 
 public class SetupDerbyDatabase {
     public static void main(String[] args) throws Exception {
@@ -11,8 +10,8 @@ public class SetupDerbyDatabase {
         try (Connection conn = DriverManager.getConnection(url);
              Statement stmt = conn.createStatement()) {
 
-             stmt.executeUpdate("DROP TABLE animal");
-             stmt.executeUpdate("DROP TABLE species");
+            //stmt.executeUpdate("DROP TABLE animal");
+            //stmt.executeUpdate("DROP TABLE species");
 
             stmt.executeUpdate("CREATE TABLE species ("
                     + "id INTEGER PRIMARY KEY, "
@@ -37,6 +36,18 @@ public class SetupDerbyDatabase {
             ResultSet rs = stmt.executeQuery("select count(*) from animal");
             rs.next();
             System.out.println(rs.getInt(1));
+        }
+    }
+
+    @Test
+    public void resultSet() throws SQLException {
+        String url = "jdbc:derby:zoo;create=true";
+        try (Connection conn = DriverManager.getConnection(url);
+             Statement stmt = conn.createStatement()) {
+            ResultSet rs = stmt.executeQuery("select count(*) from animal");
+            rs.next();//otherwise no current row
+            System.out.println(rs.getInt(1));
+
         }
     }
 }

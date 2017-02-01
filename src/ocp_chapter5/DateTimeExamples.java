@@ -3,10 +3,7 @@ package ocp_chapter5;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.time.DayOfWeek;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.Month;
+import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 
@@ -49,5 +46,10 @@ public class DateTimeExamples {
         DateTimeFormatter customFormatter = DateTimeFormatter.ofPattern("yyyy@MM@dd");
         LocalDate lastLocalDate = LocalDate.parse("2016@04@15", customFormatter);
         Assert.assertEquals(2016, lastLocalDate.getYear());
+    }
+
+    @Test
+    public void conversionExample() {
+        System.out.println(LocalTime.ofSecondOfDay(36000).toString());
     }
 }
