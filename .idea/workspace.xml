@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ecb7606-9dd2-4f67-ae48-f12d2942b2c0" name="Default" comment="exam prep">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ocp_chapter3/ExamHints.java" afterPath="$PROJECT_DIR$/src/ocp_chapter3/ExamHints.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ocp_chapter4/CollectionExamples.java" afterPath="$PROJECT_DIR$/src/ocp_chapter4/CollectionExamples.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ocp_chapter4/functionalinterfaces/SupplierExample.java" afterPath="$PROJECT_DIR$/src/ocp_chapter4/functionalinterfaces/SupplierExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ocp_chapter6/ClosableExamples.java" afterPath="$PROJECT_DIR$/src/ocp_chapter6/ClosableExamples.java" />
+    <list default="true" id="f1925348-ad19-44f4-a35f-535826765129" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ocp_chapter4/streams/Jdk9upgrades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_derby_derby_10_12_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocp_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocp_root.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MANIFEST.MF" beforeDir="false" />
     </list>
-    <ignored path="ocp_root.iws" />
-    <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,24 +25,68 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-  <component name="FavoritesManager">
-    <favorites_list name="ocp_root" />
-  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="FixedExecutorTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ocp_chapter7/FixedExecutorTest.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name=".name" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/.name">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="compiler.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="misc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="ExamHints.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ocp_chapter1/ExamHints.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="285">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="19" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Jdk9upgrades.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/streams/Jdk9upgrades.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -43,7 +94,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -52,720 +102,239 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/costs-of-obtaining-income-report" value="3030787040000" />
+      </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ocp_chapter5/ZoneExamples.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter5/DaylightSaveExample.java" />
-        <option value="$PROJECT_DIR$/resources/chapter5/test_de.properties" />
-        <option value="$PROJECT_DIR$/resources/chapter5/test_en.properties" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter5/PropertiesExample.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter5/PropertiesExamples.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter5/FormattingNumbersExamples.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter5/FormattingDateAndTime.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter5/ResourceBundleExample.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter4/StreamCreationExamples.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter4/BasicStreamExamples.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter4/functionalinterfaces/ConsumersExample.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter4/functionalinterfaces/FunctionsExample.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter4/functionalinterfaces/UnaryExamples.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter4/functionalinterfaces/PredicatesExample.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter4/OptionalExample.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter4/streams/StreamCreationExamples.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter4/streams/TerminalOperationExamples.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter4/streams/BasicStreamExamples.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter4/streams/IntermediateOperationExamples.java" />
-        <option value="$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Test.class" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter4/PipelineExamples.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter4/StreamPrintingExamples.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter4/streams/PrimitiveStreamsExample.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter4/streams/primitive/PrimitiveStreamsExample.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter4/streams/primitive/MappingExamples.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter1/ExamHints.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter7/ParallelStreamExample.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter7/CyclicBarrierTest.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter7/SingleExecutorTest.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter7/JoinTest.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter7/ThreadPoolTest.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter2/ExampleInterface2.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter2/ExampleInterface1.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter2/ExamHints.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter6/TryCatchExamples.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter6/AssertExample.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter6/ExceptionClasses.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter4/streams/AdvancedExamples.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter8/PrintWriter.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter8/PrintWriterExample.java" />
-        <option value="$PROJECT_DIR$/src/tools/Helper.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter8/serialize/SerializeExample.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter9/NIO2Basics.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter10/SetupDerbyDatabase.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter5/DateTimeExamples.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter1/PrivateVariableInside.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter3/ExamHints.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter4/functionalinterfaces/SupplierExample.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter4/CollectionExamples.java" />
-        <option value="$PROJECT_DIR$/src/ocp_chapter6/ClosableExamples.java" />
+        <option value="$PROJECT_DIR$/src/ocp_chapter4/streams/Jdk9upgrades.java" />
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
-      </MavenGeneralSettings>
-    </option>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="27" />
-    <option name="width" value="1366" />
-    <option name="height" value="741" />
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="2" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter8" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_chapter10" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_chapter9" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_chapter8" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_chapter8" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="serialize" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_chapter7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_chapter7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="operations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_chapter6" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_chapter5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_chapter4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_chapter4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functionalinterfaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_chapter3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_chapter2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_chapter1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrivateVariableInside.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_chapter1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter9" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter8" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ocp_main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="ocp_root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ocp_main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocp_root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ocp_main" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocp_root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ocp_main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocp_root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ocp_main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ocp_chapter1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocp_root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ocp_main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ocp_chapter2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocp_root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ocp_main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ocp_chapter4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocp_root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ocp_main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ocp_chapter4" type="462c0819:PsiDirectoryNode" />
+              <item name="streams" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocp_root" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ocp_main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="ocp_chapter9" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/projects/iot-server" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="extract.method.default.visibility" value="private" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/chapter8" />
-      <recent name="D:\projects\ocp_main\resources\chapter9" />
-      <recent name="D:\projects\ocp_main\resources\chapter8" />
-      <recent name="D:\projects\ocp_main\src\ocp_chapter10" />
-      <recent name="D:\projects\ocp_main\src\ocp_chapter7" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="ocp_chapter8" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/ocp_chapter7" />
-    </key>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
-  <component name="RunManager" selected="JUnit.ClosableExamples.closableOrdering">
-    <configuration default="false" name="ExamHints.duplicatedTreeMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ocp_chapter3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ocp_root" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ocp_chapter3" />
-      <option name="MAIN_CLASS_NAME" value="ocp_chapter3.ExamHints" />
-      <option name="METHOD_NAME" value="duplicatedTreeMap" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ExamHints.skipCollections" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ocp_chapter3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ocp_root" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ocp_chapter3" />
-      <option name="MAIN_CLASS_NAME" value="ocp_chapter3.ExamHints" />
-      <option name="METHOD_NAME" value="skipCollections" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="CollectionExamples.maps" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ocp_chapter4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ocp_root" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ocp_chapter4" />
-      <option name="MAIN_CLASS_NAME" value="ocp_chapter4.CollectionExamples" />
-      <option name="METHOD_NAME" value="maps" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ClosableExamples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ocp_chapter6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ocp_root" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ocp_chapter6" />
-      <option name="MAIN_CLASS_NAME" value="ocp_chapter6.ClosableExamples" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="ClosableExamples.closableOrdering" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ocp_chapter6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ocp_root" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ocp_chapter6" />
-      <option name="MAIN_CLASS_NAME" value="ocp_chapter6.ClosableExamples" />
-      <option name="METHOD_NAME" value="closableOrdering" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.Jdk9upgrades.iterateExamples">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Jdk9upgrades.instanceofExamples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ocp_root" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ocp_chapter4.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
+      <option name="PACKAGE_NAME" value="ocp_chapter4.streams" />
+      <option name="MAIN_CLASS_NAME" value="ocp_chapter4.streams.Jdk9upgrades" />
+      <option name="METHOD_NAME" value="instanceofExamples" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
+    <configuration name="Jdk9upgrades.iterateExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ocp_root" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ocp_chapter4.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ocp_chapter4.streams" />
+      <option name="MAIN_CLASS_NAME" value="ocp_chapter4.streams.Jdk9upgrades" />
+      <option name="METHOD_NAME" value="iterateExample" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Jdk9upgrades.iterateExamples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ocp_root" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ocp_chapter4.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ocp_chapter4.streams" />
+      <option name="MAIN_CLASS_NAME" value="ocp_chapter4.streams.Jdk9upgrades" />
+      <option name="METHOD_NAME" value="iterateExamples" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Jdk9upgrades.iterateUnaryExamples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ocp_root" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ocp_chapter4.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ocp_chapter4.streams" />
+      <option name="MAIN_CLASS_NAME" value="ocp_chapter4.streams.Jdk9upgrades" />
+      <option name="METHOD_NAME" value="iterateUnaryExamples" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Jdk9upgrades.takeWhileExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ocp_root" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ocp_chapter4.streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="ocp_chapter4.streams" />
+      <option name="MAIN_CLASS_NAME" value="ocp_chapter4.streams.Jdk9upgrades" />
+      <option name="METHOD_NAME" value="takeWhileExample" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -775,93 +344,13 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ocp_root" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -874,1195 +363,209 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
-      <method />
     </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.ExamHints.duplicatedTreeMap" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.ExamHints.skipCollections" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CollectionExamples.maps" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ClosableExamples" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ClosableExamples.closableOrdering" />
+    <list>
+      <item itemvalue="JUnit.Jdk9upgrades.instanceofExamples" />
+      <item itemvalue="JUnit.Jdk9upgrades.takeWhileExample" />
+      <item itemvalue="JUnit.Jdk9upgrades.iterateExample" />
+      <item itemvalue="JUnit.Jdk9upgrades.iterateExamples" />
+      <item itemvalue="JUnit.Jdk9upgrades.iterateUnaryExamples" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ClosableExamples.closableOrdering" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ClosableExamples" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CollectionExamples.maps" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.ExamHints.skipCollections" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ExamHints.duplicatedTreeMap" />
+      <list>
+        <item itemvalue="JUnit.Jdk9upgrades.iterateExamples" />
+        <item itemvalue="JUnit.Jdk9upgrades.takeWhileExample" />
+        <item itemvalue="JUnit.Jdk9upgrades.iterateUnaryExamples" />
+        <item itemvalue="JUnit.Jdk9upgrades.iterateExample" />
+        <item itemvalue="JUnit.Jdk9upgrades.instanceofExamples" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0ecb7606-9dd2-4f67-ae48-f12d2942b2c0" name="Default" comment="" />
-      <created>1460641846277</created>
+      <changelist id="f1925348-ad19-44f4-a35f-535826765129" name="Default" comment="" />
+      <created>1530189374270</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1460641846277</updated>
+      <updated>1530189374270</updated>
+      <workItem from="1530189375976" duration="420000" />
+      <workItem from="1530189946156" duration="1044000" />
     </task>
-    <task id="LOCAL-00001" summary="datetime examples">
-      <created>1460666485447</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1460666485447</updated>
-    </task>
-    <task id="LOCAL-00002" summary="locale examples">
-      <created>1460667211966</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1460667211966</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Duration+Period+Zone examples">
-      <created>1460715576030</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1460715576030</updated>
-    </task>
-    <task id="LOCAL-00004" summary="instant examples">
-      <created>1460755699114</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1460755699114</updated>
-    </task>
-    <task id="LOCAL-00005" summary="refactor project structure-&gt;single src catalog with chapter packages">
-      <created>1460803622132</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1460803622132</updated>
-    </task>
-    <task id="LOCAL-00006" summary="refactor: code reuse for getting resources">
-      <created>1460894356400</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1460894356400</updated>
-    </task>
-    <task id="LOCAL-00007" summary="new test cases: zone + daylight save">
-      <created>1460895515953</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1460895515953</updated>
-    </task>
-    <task id="LOCAL-00008" summary="new test cases: bundles + properties">
-      <created>1460899608976</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1460899608976</updated>
-    </task>
-    <task id="LOCAL-00009" summary="new test case: number formatting">
-      <created>1460900838668</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1460900838668</updated>
-    </task>
-    <task id="LOCAL-00010" summary="new test case: number parsing">
-      <created>1460927787832</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1460927787832</updated>
-    </task>
-    <task id="LOCAL-00011" summary="fallback resource example + locale builder example">
-      <created>1461006601388</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1461006601388</updated>
-    </task>
-    <task id="LOCAL-00012" summary="moved files + supplier example">
-      <created>1461043590787</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1461043590787</updated>
-    </task>
-    <task id="LOCAL-00013" summary="rest of functional interfaces">
-      <created>1461100768278</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1461100768278</updated>
-    </task>
-    <task id="LOCAL-00014" summary="optional examples">
-      <created>1461154492359</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1461154492359</updated>
-    </task>
-    <task id="LOCAL-00015" summary="terminal operations examples + stream creation">
-      <created>1461220937015</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1461220937015</updated>
-    </task>
-    <task id="LOCAL-00016" summary="terminal operations examples">
-      <created>1461319821073</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1461319821073</updated>
-    </task>
-    <task id="LOCAL-00017" summary="intermediate operations examples">
-      <created>1461441197935</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1461441197935</updated>
-    </task>
-    <task id="LOCAL-00018" summary="pipeline examples">
-      <created>1461492464182</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1461492464182</updated>
-    </task>
-    <task id="LOCAL-00019" summary="stream printing examples">
-      <created>1461530512390</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1461530512390</updated>
-    </task>
-    <task id="LOCAL-00020" summary="primitive stream examples">
-      <created>1461618174670</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1461618174670</updated>
-    </task>
-    <task id="LOCAL-00021" summary="advanced examples">
-      <created>1464037222753</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1464037222753</updated>
-    </task>
-    <task id="LOCAL-00022" summary="my hints from notes">
-      <created>1465677306273</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1465677306273</updated>
-    </task>
-    <task id="LOCAL-00023" summary="concurrency project moved into ocp preparations">
-      <created>1466453617116</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1466453617116</updated>
-    </task>
-    <task id="LOCAL-00024" summary="chapter2 idead">
-      <created>1478551828575</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1478551828575</updated>
-    </task>
-    <task id="LOCAL-00025" summary="concurrency project moved into ocp preparations">
-      <created>1478552010258</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1478552010258</updated>
-    </task>
-    <task id="LOCAL-00026" summary="collection+assertion+closable hints">
-      <created>1482874452882</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1482874452882</updated>
-    </task>
-    <task id="LOCAL-00027" summary="exceptions to memorize">
-      <created>1482931168745</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1482931168745</updated>
-    </task>
-    <task id="LOCAL-00028" summary="equals with Path interface">
-      <created>1484257899038</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1484257899038</updated>
-    </task>
-    <task id="LOCAL-00029" summary="grouping and partitioning examples">
-      <created>1485115843175</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1485115843175</updated>
-    </task>
-    <task id="LOCAL-00030" summary="groupingBy example">
-      <created>1485206292650</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1485206292650</updated>
-    </task>
-    <task id="LOCAL-00031" summary="groupingBy example">
-      <created>1485632465148</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1485632465148</updated>
-    </task>
-    <task id="LOCAL-00032" summary="resolve example">
-      <created>1485638065094</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1485638065094</updated>
-    </task>
-    <task id="LOCAL-00033" summary="exam prep">
-      <created>1485981067616</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1485981067616</updated>
-    </task>
-    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ClosableExamples - 2017.02.01 at 21h 50m 29s.xml">
-      <configuration name="ClosableExamples" configurationId="JUnit" />
+    <history-entry file="Jdk9upgrades_iterateExample - 2018.06.28 at 14h 55m 58s.xml">
+      <configuration name="Jdk9upgrades.iterateExample" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClosableExamples_closableOrdering - 2017.02.01 at 21h 51m 26s.xml">
-      <configuration name="ClosableExamples.closableOrdering" configurationId="JUnit" />
+    <history-entry file="Jdk9upgrades_iterateExamples - 2018.06.28 at 14h 56m 26s.xml">
+      <configuration name="Jdk9upgrades.iterateExamples" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionExamples_maps - 2017.02.01 at 21h 45m 06s.xml">
-      <configuration name="CollectionExamples.maps" configurationId="JUnit" />
+    <history-entry file="Jdk9upgrades_iterateExamples - 2018.06.28 at 14h 56m 43s.xml">
+      <configuration name="Jdk9upgrades.iterateExamples" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionExamples_maps - 2017.02.01 at 21h 46m 17s.xml">
-      <configuration name="CollectionExamples.maps" configurationId="JUnit" />
+    <history-entry file="Jdk9upgrades_iterateUnaryExamples - 2018.06.28 at 14h 58m 34s.xml">
+      <configuration name="Jdk9upgrades.iterateUnaryExamples" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionExamples_maps - 2017.02.01 at 21h 46m 56s.xml">
-      <configuration name="CollectionExamples.maps" configurationId="JUnit" />
+    <history-entry file="Jdk9upgrades_takeWhileExample - 2018.06.28 at 14h 58m 40s.xml">
+      <configuration name="Jdk9upgrades.takeWhileExample" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionExamples_maps - 2017.02.01 at 21h 47m 28s.xml">
-      <configuration name="CollectionExamples.maps" configurationId="JUnit" />
+    <history-entry file="Jdk9upgrades_iterateExamples - 2018.06.28 at 14h 58m 43s.xml">
+      <configuration name="Jdk9upgrades.iterateExamples" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CollectionExamples_maps - 2017.02.01 at 21h 48m 26s.xml">
-      <configuration name="CollectionExamples.maps" configurationId="JUnit" />
+    <history-entry file="Jdk9upgrades_iterateExamples - 2018.06.28 at 14h 59m 02s.xml">
+      <configuration name="Jdk9upgrades.iterateExamples" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExamHints_skipCollections - 2017.02.01 at 21h 39m 36s.xml">
-      <configuration name="ExamHints.skipCollections" configurationId="JUnit" />
+    <history-entry file="Jdk9upgrades_iterateExamples - 2018.06.28 at 14h 59m 41s.xml">
+      <configuration name="Jdk9upgrades.iterateExamples" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExamHints_skipCollections - 2017.02.01 at 21h 41m 09s.xml">
-      <configuration name="ExamHints.skipCollections" configurationId="JUnit" />
+    <history-entry file="Jdk9upgrades_iterateExamples - 2018.06.28 at 15h 00m 08s.xml">
+      <configuration name="Jdk9upgrades.iterateExamples" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ExamHints_skipCollections - 2017.02.01 at 21h 41m 39s.xml">
-      <configuration name="ExamHints.skipCollections" configurationId="JUnit" />
+    <history-entry file="Jdk9upgrades_iterateExamples - 2018.06.28 at 15h 00m 16s.xml">
+      <configuration name="Jdk9upgrades.iterateExamples" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1464000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291367" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791728" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32791728" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.67355984" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25768667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39734122" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" weight="0.32983193" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32983193" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291367" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291367" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32553956" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291367" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25816485" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.397482" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="new test cases: zone + daylight save" />
-    <MESSAGE value="new test cases: bundles + properties" />
-    <MESSAGE value="new test case: number formatting" />
-    <MESSAGE value="new test case: number parsing" />
-    <MESSAGE value="fallback resource example + locale builder example" />
-    <MESSAGE value="moved files + supplier example" />
-    <MESSAGE value="rest of functional interfaces" />
-    <MESSAGE value="optional examples" />
-    <MESSAGE value="terminal operations examples + stream creation" />
-    <MESSAGE value="terminal operations examples" />
-    <MESSAGE value="intermediate operations examples" />
-    <MESSAGE value="pipeline examples" />
-    <MESSAGE value="stream printing examples" />
-    <MESSAGE value="primitive stream examples" />
-    <MESSAGE value="advanced examples" />
-    <MESSAGE value="my hints from notes" />
-    <MESSAGE value="chapter2 idead" />
-    <MESSAGE value="concurrency project moved into ocp preparations" />
-    <MESSAGE value="collection+assertion+closable hints" />
-    <MESSAGE value="exceptions to memorize" />
-    <MESSAGE value="equals with Path interface" />
-    <MESSAGE value="grouping and partitioning examples" />
-    <MESSAGE value="groupingBy example" />
-    <MESSAGE value="resolve example" />
-    <MESSAGE value="exam prep" />
-    <option name="LAST_COMMIT_MESSAGE" value="exam prep" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ocp_chapter5/ZoneExamples.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ocp_chapter8/CloseYourStreamPlease.java</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ocp_chapter4/streams/primitive/MappingExamples.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="1" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="getClass().getResource(&quot;chapter8\smalltextfile.txt&quot;)" language="JAVA" custom="" />
-        <watch expression="getFile()" />
-        <watch expression="getFormattedNumberForLocale(Locale.CANADA_FRENCH, number)" />
-        <watch expression="classloader.getResource(path).getFile();" language="JAVA" custom="" />
-      </configuration>
-    </watches-manager>
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter7/CyclicBarrierTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter7/InterruptedTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter7/operations/LongOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter7/operations/HelloOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter7/SingleExecutorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter7/JoinTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter7/ThreadPoolTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter6/AssertExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter6/TryCatchExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="5" selection-start-line="6" selection-start-column="3" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.8.0/jre/lib/rt.jar!/java/io/IOException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/streams/IntermediateOperationExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="67" column="24" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="24" />
-          <folding>
-            <marker date="1464034616628" expanded="false" signature="38:224" placeholder="..." />
-            <marker date="1464034616628" expanded="false" signature="306:317" placeholder=" { " />
-            <marker date="1464034616628" expanded="false" signature="386:392" placeholder=" }" />
-            <marker date="1464034616628" expanded="false" signature="430:441" placeholder=" { " />
-            <marker date="1464034616628" expanded="false" signature="496:502" placeholder=" }" />
-            <marker date="1464034616628" expanded="true" signature="542:855" placeholder="{...}" />
-            <marker date="1464034616628" expanded="true" signature="889:1099" placeholder="{...}" />
-            <marker date="1464034616628" expanded="true" signature="1137:1607" placeholder="{...}" />
-            <marker date="1464034616628" expanded="true" signature="1644:2153" placeholder="{...}" />
-            <marker date="1464034616628" expanded="true" signature="2188:2312" placeholder="{...}" />
-            <marker date="1464034616628" expanded="false" signature="2360:2371" placeholder=" { " />
-            <marker date="1464034616628" expanded="false" signature="2409:2415" placeholder=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/streams/primitive/BasicExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <marker date="1464034616628" expanded="false" signature="48:162" placeholder="..." />
-            <marker date="1464034616628" expanded="true" signature="239:526" placeholder="{...}" />
-            <marker date="1464034616628" expanded="true" signature="570:710" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/streams/primitive/MappingExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <marker date="1464034616628" expanded="true" signature="49:150" placeholder="..." />
-            <marker date="1464034616628" expanded="true" signature="327:771" placeholder="{...}" />
-            <marker date="1464034616628" expanded="true" signature="866:1065" placeholder="{...}" />
-            <marker date="1464034616628" expanded="true" signature="1161:1435" placeholder="{...}" />
-            <marker date="1464034616628" expanded="false" signature="1481:1492" placeholder=" { " />
-            <marker date="1464034616628" expanded="false" signature="1532:1538" placeholder=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/streams/primitive/StatisticsExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <marker date="1464034616629" expanded="false" signature="48:169" placeholder="..." />
-            <marker date="1464034616629" expanded="true" signature="244:592" placeholder="{...}" />
-            <marker date="1464034616629" expanded="true" signature="639:1024" placeholder="{...}" />
-            <marker date="1464034616629" expanded="false" signature="1068:1079" placeholder=" { " />
-            <marker date="1464034616629" expanded="false" signature="1117:1123" placeholder=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/PipelineExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
-          <folding>
-            <marker date="1464034616627" expanded="false" signature="31:79" placeholder="..." />
-            <marker date="1464034616627" expanded="true" signature="184:324" placeholder="{...}" />
-            <marker date="1464034616627" expanded="true" signature="379:472" placeholder="{...}" />
-            <marker date="1464034616627" expanded="true" signature="544:693" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/StreamPrintingExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <marker date="1464034616627" expanded="false" signature="30:114" placeholder="..." />
-            <marker date="1464034616627" expanded="false" signature="204:215" placeholder=" { " />
-            <marker date="1464034616627" expanded="false" signature="285:291" placeholder=" }" />
-            <marker date="1464034616627" expanded="true" signature="405:588" placeholder="{...}" />
-            <marker date="1464034616627" expanded="true" signature="676:851" placeholder="{...}" />
-            <marker date="1464034616627" expanded="true" signature="894:1069" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/streams/StreamCreationExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-          <folding>
-            <marker date="1464034616628" expanded="false" signature="38:162" placeholder="..." />
-            <marker date="1464034616628" expanded="true" signature="259:360" placeholder="{...}" />
-            <marker date="1464034616628" expanded="true" signature="391:540" placeholder="{...}" />
-            <marker date="1464034616628" expanded="true" signature="585:769" placeholder="{...}" />
-            <marker date="1464034616628" expanded="true" signature="848:1111" placeholder="{...}" />
-            <marker date="1464034616628" expanded="true" signature="1153:1462" placeholder="{...}" />
-            <marker date="1464034616628" expanded="false" signature="1509:1520" placeholder=" { " />
-            <marker date="1464034616628" expanded="false" signature="1563:1569" placeholder=" }" />
-            <marker date="1464034616628" expanded="false" signature="1625:1636" placeholder=" { " />
-            <marker date="1464034616628" expanded="false" signature="1688:1694" placeholder=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/streams/AdvancedExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="78" column="35" selection-start-line="78" selection-start-column="35" selection-end-line="78" selection-end-column="35" />
-          <folding>
-            <marker date="1485206292144" expanded="false" signature="38:247" placeholder="..." />
-            <marker date="1485206292144" expanded="true" signature="249:295" placeholder="/**...*/" />
-            <marker date="1485206292144" expanded="true" signature="368:585" placeholder="{...}" />
-            <marker date="1485206292144" expanded="true" signature="624:914" placeholder="{...}" />
-            <marker date="1485206292144" expanded="true" signature="962:1346" placeholder="{...}" />
-            <marker date="1485206292144" expanded="true" signature="1391:2006" placeholder="{...}" />
-            <marker date="1485206292144" expanded="true" signature="2047:2882" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter8/CloseYourStreamPlease.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="23" column="0" selection-start-line="16" selection-start-column="2" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <marker date="1464034616632" expanded="false" signature="30:309" placeholder="..." />
-            <marker date="1464034616632" expanded="true" signature="391:468" placeholder="{...}" />
-            <marker date="1464034616632" expanded="true" signature="512:995" placeholder="{...}" />
-            <marker date="1464034616632" expanded="true" signature="522:655" placeholder="//..." />
-            <marker date="1464034616632" expanded="true" signature="1030:1678" placeholder="{...}" />
-            <marker date="1464034616632" expanded="true" signature="1714:1873" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.8.0/jre/lib/rt.jar!/java/io/PrintWriter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1476956298000" expanded="true" signature="0:104" placeholder="/.../" />
-            <marker date="1476956298000" expanded="false" signature="131:776" placeholder="..." />
-            <marker date="1476956298000" expanded="true" signature="1102:1367" placeholder="{...}" />
-            <marker date="1476956298000" expanded="false" signature="1403:1414" placeholder=" { " />
-            <marker date="1476956298000" expanded="false" signature="1431:1437" placeholder=" }" />
-            <marker date="1476956298000" expanded="true" signature="1493:1746" placeholder="{...}" />
-            <marker date="1476956298000" expanded="false" signature="1788:1799" placeholder=" { " />
-            <marker date="1476956298000" expanded="false" signature="1816:1822" placeholder=" }" />
-            <marker date="1476956298000" expanded="true" signature="1884:2070" placeholder="{...}" />
-            <marker date="1476956298000" expanded="true" signature="2141:2255" placeholder="{...}" />
-            <marker date="1476956298000" expanded="true" signature="2338:2457" placeholder="{...}" />
-            <marker date="1476956298000" expanded="true" signature="2570:2627" placeholder="{...}" />
-            <marker date="1476956298000" expanded="true" signature="2692:2802" placeholder="{...}" />
-            <marker date="1476956298000" expanded="true" signature="2909:2952" placeholder="{...}" />
-            <marker date="1476956298000" expanded="true" signature="3003:3103" placeholder="{...}" />
-            <marker date="1476956298000" expanded="true" signature="3129:3386" placeholder="{...}" />
-            <marker date="1476956298000" expanded="true" signature="3412:3753" placeholder="{...}" />
-            <marker date="1476956298000" expanded="true" signature="3787:4099" placeholder="{...}" />
-            <marker date="1476956298000" expanded="false" signature="4130:4141" placeholder=" { " />
-            <marker date="1476956298000" expanded="false" signature="4161:4167" placeholder=" }" />
-            <marker date="1476956298000" expanded="false" signature="4200:4211" placeholder=" { " />
-            <marker date="1476956298000" expanded="false" signature="4232:4238" placeholder=" }" />
-            <marker date="1476956298000" expanded="true" signature="4269:4623" placeholder="{...}" />
-            <marker date="1476956298000" expanded="true" signature="4677:5043" placeholder="{...}" />
-            <marker date="1476956298000" expanded="false" signature="5078:5089" placeholder=" { " />
-            <marker date="1476956298000" expanded="false" signature="5128:5134" placeholder=" }" />
-            <marker date="1476956298000" expanded="true" signature="5186:5550" placeholder="{...}" />
-            <marker date="1476956298000" expanded="true" signature="5583:5594" placeholder=" { " />
-            <marker date="1476956298000" expanded="true" signature="5631:5637" placeholder=" }" />
-            <marker date="1476956298000" expanded="true" signature="5666:6130" placeholder="{...}" />
-            <marker date="1476956298000" expanded="false" signature="6164:6175" placeholder=" { " />
-            <marker date="1476956298000" expanded="false" signature="6204:6210" placeholder=" }" />
-            <marker date="1476956298000" expanded="false" signature="6241:6252" placeholder=" { " />
-            <marker date="1476956298000" expanded="false" signature="6266:6272" placeholder=" }" />
-            <marker date="1476956298000" expanded="false" signature="6302:6313" placeholder=" { " />
-            <marker date="1476956298000" expanded="false" signature="6343:6349" placeholder=" }" />
-            <marker date="1476956298000" expanded="false" signature="6380:6391" placeholder=" { " />
-            <marker date="1476956298000" expanded="false" signature="6421:6427" placeholder=" }" />
-            <marker date="1476956298000" expanded="false" signature="6459:6470" placeholder=" { " />
-            <marker date="1476956298000" expanded="false" signature="6500:6506" placeholder=" }" />
-            <marker date="1476956298000" expanded="false" signature="6539:6550" placeholder=" { " />
-            <marker date="1476956298000" expanded="false" signature="6580:6586" placeholder=" }" />
-            <marker date="1476956298000" expanded="false" signature="6619:6630" placeholder=" { " />
-            <marker date="1476956298000" expanded="false" signature="6644:6650" placeholder=" }" />
-            <marker date="1476956298000" expanded="true" signature="6684:6773" placeholder="{...}" />
-            <marker date="1476956298000" expanded="false" signature="6808:6819" placeholder=" { " />
-            <marker date="1476956298000" expanded="false" signature="6851:6857" placeholder=" }" />
-            <marker date="1476956298000" expanded="false" signature="6884:6895" placeholder=" { " />
-            <marker date="1476956298000" expanded="false" signature="6910:6916" placeholder=" }" />
-            <marker date="1476956298000" expanded="true" signature="6953:7092" placeholder="{...}" />
-            <marker date="1476956298000" expanded="true" signature="7126:7265" placeholder="{...}" />
-            <marker date="1476956298000" expanded="true" signature="7298:7437" placeholder="{...}" />
-            <marker date="1476956298000" expanded="true" signature="7471:7610" placeholder="{...}" />
-            <marker date="1476956298000" expanded="true" signature="7645:7784" placeholder="{...}" />
-            <marker date="1476956298000" expanded="true" signature="7820:7959" placeholder="{...}" />
-            <marker date="1476956298000" expanded="true" signature="7995:8134" placeholder="{...}" />
-            <marker date="1476956298000" expanded="true" signature="8170:8309" placeholder="{...}" />
-            <marker date="1476956298000" expanded="true" signature="8345:8522" placeholder="{...}" />
-            <marker date="1476956298000" expanded="false" signature="8584:8595" placeholder=" { " />
-            <marker date="1476956298000" expanded="false" signature="8628:8634" placeholder=" }" />
-            <marker date="1476956298000" expanded="false" signature="8706:8717" placeholder=" { " />
-            <marker date="1476956298000" expanded="false" signature="8753:8759" placeholder=" }" />
-            <marker date="1476956298000" expanded="true" signature="8822:9501" placeholder="{...}" />
-            <marker date="1476956298000" expanded="true" signature="9574:10220" placeholder="{...}" />
-            <marker date="1476956298000" expanded="true" signature="10270:10424" placeholder="{...}" />
-            <marker date="1476956298000" expanded="true" signature="10494:10641" placeholder="{...}" />
-            <marker date="1476956298000" expanded="true" signature="10681:10732" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter8/PrintWriterExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <marker date="1485632464642" expanded="true" signature="30:133" placeholder="..." />
-            <marker date="1485632464642" expanded="true" signature="135:181" placeholder="/**...*/" />
-            <marker date="1485632464642" expanded="true" signature="252:516" placeholder="{...}" />
-            <marker date="1485632464642" expanded="true" signature="582:845" placeholder="{...}" />
-            <marker date="1485632464642" expanded="false" signature="876:886" placeholder=" { " />
-            <marker date="1485632464642" expanded="false" signature="932:938" placeholder=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tools/Helper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="54" selection-start-line="7" selection-start-column="54" selection-end-line="7" selection-end-column="54" />
-          <folding>
-            <marker date="1485632278137" expanded="true" signature="90:235" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/chapter8/out.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/chapter8/out.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter8/serialize/SerializeExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding>
-            <marker date="1485632459459" expanded="false" signature="40:284" placeholder="..." />
-            <marker date="1485632459459" expanded="true" signature="430:1054" placeholder="{...}" />
-            <marker date="1485632459459" expanded="true" signature="623:777" placeholder="//..." />
-            <marker date="1485632459459" expanded="true" signature="1114:1549" placeholder="{...}" />
-            <marker date="1485632459459" expanded="true" signature="1638:2558" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter8/BufferExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-241">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <marker date="1464034616631" expanded="false" signature="30:257" placeholder="..." />
-            <marker date="1464034616631" expanded="true" signature="342:478" placeholder="{...}" />
-            <marker date="1464034616631" expanded="true" signature="531:909" placeholder="{...}" />
-            <marker date="1464034616631" expanded="true" signature="962:1405" placeholder="{...}" />
-            <marker date="1464034616631" expanded="true" signature="1461:1941" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter9/NIO2Attribute_vs_View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-466">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <marker date="1464034616633" expanded="false" signature="30:306" placeholder="..." />
-            <marker date="1464034616633" expanded="true" signature="427:1013" placeholder="{...}" />
-            <marker date="1464034616633" expanded="true" signature="1061:1665" placeholder="{...}" />
-            <marker date="1464034616633" expanded="true" signature="1727:2486" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter9/NIO2FileOperations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-          <folding>
-            <marker date="1464034616633" expanded="false" signature="30:247" placeholder="..." />
-            <marker date="1464034616633" expanded="true" signature="344:558" placeholder="{...}" />
-            <marker date="1464034616633" expanded="true" signature="612:1026" placeholder="{...}" />
-            <marker date="1464034616633" expanded="true" signature="778:917" placeholder="//..." />
-            <marker date="1464034616633" expanded="true" signature="1058:1068" placeholder=" { " />
-            <marker date="1464034616633" expanded="true" signature="1115:1121" placeholder=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter9/NIO2SearchAndWalk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <marker date="1464034616633" expanded="false" signature="30:203" placeholder="..." />
-            <marker date="1464034616633" expanded="true" signature="291:494" placeholder="{...}" />
-            <marker date="1464034616633" expanded="true" signature="557:762" placeholder="{...}" />
-            <marker date="1464034616633" expanded="true" signature="821:1027" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter9/NIO2subpath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <marker date="1464034616633" expanded="false" signature="30:126" placeholder="..." />
-            <marker date="1464034616633" expanded="true" signature="196:840" placeholder="{...}" />
-            <marker date="1464034616633" expanded="true" signature="345:597" placeholder="//..." />
-            <marker date="1464034616633" expanded="true" signature="934:1079" placeholder="{...}" />
-            <marker date="1464034616633" expanded="true" signature="1174:1319" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter9/NIO2Basics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
-          <folding>
-            <marker date="1485638064610" expanded="false" signature="30:156" placeholder="..." />
-            <marker date="1485638064610" expanded="true" signature="236:339" placeholder="{...}" />
-            <marker date="1485638064610" expanded="true" signature="375:471" placeholder="{...}" />
-            <marker date="1485638064610" expanded="true" signature="509:676" placeholder="{...}" />
-            <marker date="1485638064610" expanded="true" signature="565:626" placeholder="//..." />
-            <marker date="1485638064610" expanded="true" signature="721:853" placeholder="{...}" />
-            <marker date="1485638064610" expanded="true" signature="900:1040" placeholder="{...}" />
-            <marker date="1485638064610" expanded="true" signature="1088:1272" placeholder="{...}" />
-            <marker date="1485638064610" expanded="true" signature="1319:1553" placeholder="{...}" />
-            <marker date="1485638064610" expanded="true" signature="1394:1486" placeholder="//..." />
-            <marker date="1485638064610" expanded="true" signature="1594:1828" placeholder="{...}" />
-            <marker date="1485638064610" expanded="true" signature="1866:2107" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter10/SetupDerbyDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="48" column="45" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
-          <folding>
-            <marker date="1485981066763" expanded="false" signature="31:66" placeholder="..." />
-            <marker date="1485981066763" expanded="true" signature="162:1740" placeholder="{...}" />
-            <marker date="1485981066763" expanded="true" signature="349:447" placeholder="//..." />
-            <marker date="1485981066763" expanded="true" signature="1800:2162" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/LocaleExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <marker date="1464034616629" expanded="false" signature="30:96" placeholder="..." />
-            <marker date="1464034616629" expanded="false" signature="176:187" placeholder=" { " />
-            <marker date="1464034616629" expanded="false" signature="241:247" placeholder=" }" />
-            <marker date="1464034616629" expanded="true" signature="291:500" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/DateTimeExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="52" column="68" selection-start-line="52" selection-start-column="68" selection-end-line="52" selection-end-column="68" />
-          <folding>
-            <marker date="1485890170915" expanded="false" signature="30:172" placeholder="..." />
-            <marker date="1485890170915" expanded="true" signature="247:619" placeholder="{...}" />
-            <marker date="1485890170915" expanded="true" signature="663:989" placeholder="{...}" />
-            <marker date="1485890170915" expanded="true" signature="1032:1686" placeholder="{...}" />
-            <marker date="1485890170915" expanded="true" signature="1733:1744" placeholder=" { " />
-            <marker date="1485890170915" expanded="true" signature="1806:1812" placeholder=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter1/PrivateVariableInside.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding>
-            <marker date="1485890577941" expanded="true" signature="23:69" placeholder="/**...*/" />
-            <marker date="1485890577941" expanded="true" signature="105:460" placeholder="{...}" />
-            <marker date="1485890577941" expanded="true" signature="142:149" placeholder="{...}" />
-            <marker date="1485890577941" expanded="true" signature="229:458" placeholder="{...}" />
-            <marker date="1485890577941" expanded="true" signature="476:519" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ocp_chapter1/ExamHints.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        <state relative-caret-position="120">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding>
-            <marker date="1478551851341" expanded="false" signature="30:70" placeholder="..." />
-            <marker date="1478551851341" expanded="true" signature="145:401" placeholder="{...}" />
-            <marker date="1478551851341" expanded="true" signature="460:663" placeholder="{...}" />
-            <marker date="1478551851341" expanded="true" signature="669:753" placeholder="//..." />
-            <marker date="1478551851341" expanded="true" signature="772:848" placeholder="{...}" />
-            <marker date="1478551851341" expanded="false" signature="806:821" placeholder=" { " />
-            <marker date="1478551851341" expanded="false" signature="832:842" placeholder=" }" />
-            <marker date="1478551851341" expanded="true" signature="868:944" placeholder="{...}" />
-            <marker date="1478551851341" expanded="false" signature="902:917" placeholder=" { " />
-            <marker date="1478551851341" expanded="false" signature="928:938" placeholder=" }" />
-            <marker date="1478551851341" expanded="true" signature="984:1078" placeholder="{...}" />
-            <marker date="1478551851341" expanded="false" signature="1036:1051" placeholder=" { " />
-            <marker date="1478551851341" expanded="false" signature="1062:1072" placeholder=" }" />
-            <marker date="1478551851341" expanded="true" signature="1098:1131" placeholder="{...}" />
-            <marker date="1478551851341" expanded="true" signature="1151:1184" placeholder="{...}" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter2/ExamHints.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="585">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/.name">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ocp_chapter1/ExamHints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="19" selection-end-column="5" />
           <folding>
-            <marker date="1478551979657" expanded="false" signature="30:70" placeholder="..." />
-            <marker date="1478551979657" expanded="true" signature="72:118" placeholder="/**...*/" />
-            <marker date="1478551979657" expanded="false" signature="330:341" placeholder=" { " />
-            <marker date="1478551979657" expanded="false" signature="385:391" placeholder=" }" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter2/ExampleInterface1.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/stream/Stream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+        <state relative-caret-position="407">
+          <caret line="1136" column="32" selection-start-line="1136" selection-start-column="32" selection-end-line="1136" selection-end-column="32" />
           <folding>
-            <marker date="1478551827831" expanded="true" signature="23:69" placeholder="/**...*/" />
-            <marker date="1478551827831" expanded="false" signature="161:172" placeholder=" { " />
-            <marker date="1478551827831" expanded="false" signature="191:197" placeholder=" }" />
+            <element signature="e#54937#54938#0" expanded="true" />
+            <element signature="e#54993#54994#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter2/ExampleInterface2.java">
+    <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/streams/Jdk9upgrades.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="405">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           <folding>
-            <marker date="1478551827895" expanded="true" signature="23:69" placeholder="/**...*/" />
-            <marker date="1478551827895" expanded="false" signature="135:146" placeholder=" { " />
-            <marker date="1478551827895" expanded="false" signature="166:172" placeholder=" }" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter3/ExamHints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="72" column="47" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
-          <folding>
-            <marker date="1485981689769" expanded="false" signature="30:310" placeholder="..." />
-            <marker date="1485981689769" expanded="true" signature="312:358" placeholder="/**...*/" />
-            <marker date="1485981689769" expanded="true" signature="425:689" placeholder="{...}" />
-            <marker date="1485981689769" expanded="true" signature="734:918" placeholder="{...}" />
-            <marker date="1485981689769" expanded="true" signature="982:1091" placeholder="{...}" />
-            <marker date="1485981689769" expanded="true" signature="1181:1286" placeholder="{...}" />
-            <marker date="1485981689769" expanded="true" signature="1374:1481" placeholder="{...}" />
-            <marker date="1485981689769" expanded="true" signature="1567:1644" placeholder="{...}" />
-            <marker date="1485981689769" expanded="true" signature="1692:1874" placeholder="{...}" />
-            <marker date="1485981689769" expanded="true" signature="1922:2130" placeholder="{...}" />
-            <marker date="1485981689769" expanded="true" signature="2176:2768" placeholder="{...}" />
-            <marker date="1485981689769" expanded="true" signature="2789:2942" placeholder="{...}" />
-            <marker date="1485981689769" expanded="false" signature="2832:2847" placeholder=" { " />
-            <marker date="1485981689769" expanded="false" signature="2860:2870" placeholder=" }" />
-            <marker date="1485981689769" expanded="false" signature="2901:2916" placeholder=" { " />
-            <marker date="1485981689769" expanded="false" signature="2926:2936" placeholder=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/functionalinterfaces/ConsumersExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <marker date="1464034616627" expanded="false" signature="51:141" placeholder="..." />
-            <marker date="1464034616627" expanded="true" signature="209:647" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/functionalinterfaces/FunctionsExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-          <folding>
-            <marker date="1464034616627" expanded="false" signature="51:166" placeholder="..." />
-            <marker date="1464034616627" expanded="true" signature="355:635" placeholder="{...}" />
-            <marker date="1464034616627" expanded="true" signature="680:833" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/functionalinterfaces/PredicatesExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="84" selection-start-line="21" selection-start-column="84" selection-end-line="21" selection-end-column="84" />
-          <folding>
-            <marker date="1464034616627" expanded="false" signature="51:168" placeholder="..." />
-            <marker date="1464034616627" expanded="true" signature="317:555" placeholder="{...}" />
-            <marker date="1464034616627" expanded="true" signature="601:757" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/functionalinterfaces/UnaryExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <marker date="1464034616628" expanded="false" signature="51:214" placeholder="..." />
-            <marker date="1464034616628" expanded="true" signature="386:647" placeholder="{...}" />
-            <marker date="1464034616628" expanded="true" signature="688:968" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/functionalinterfaces/SupplierExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <folding>
-            <marker date="1485981897026" expanded="false" signature="51:188" placeholder="..." />
-            <marker date="1485981897026" expanded="true" signature="266:909" placeholder="{...}" />
-            <marker date="1485981897026" expanded="true" signature="558:655" placeholder="//..." />
-            <marker date="1485981897026" expanded="true" signature="953:961" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/OptionalExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="50" selection-end-column="5" />
-          <folding>
-            <marker date="1464034616627" expanded="false" signature="30:139" placeholder="..." />
-            <marker date="1464034616627" expanded="true" signature="177:346" placeholder="//..." />
-            <marker date="1464034616627" expanded="true" signature="390:495" placeholder="{...}" />
-            <marker date="1464034616627" expanded="true" signature="536:649" placeholder="{...}" />
-            <marker date="1464034616627" expanded="true" signature="691:808" placeholder="{...}" />
-            <marker date="1464034616627" expanded="true" signature="896:1040" placeholder="{...}" />
-            <marker date="1464034616627" expanded="true" signature="1129:1249" placeholder="{...}" />
-            <marker date="1464034616627" expanded="true" signature="1298:1418" placeholder="{...}" />
-            <marker date="1464034616627" expanded="true" signature="1466:1661" placeholder="{...}" />
-            <marker date="1464034616627" expanded="true" signature="1711:2064" placeholder="{...}" />
-            <marker date="1464034616627" expanded="true" signature="2152:2380" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter4/CollectionExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="53" column="14" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
-          <folding>
-            <marker date="1485982218783" expanded="true" signature="30:145" placeholder="..." />
-            <marker date="1485982218783" expanded="true" signature="215:1115" placeholder="{...}" />
-            <marker date="1485982218783" expanded="true" signature="1155:1345" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter5/PropertiesExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <marker date="1464034616630" expanded="false" signature="30:100" placeholder="..." />
-            <marker date="1464034616630" expanded="true" signature="180:407" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter6/ExceptionClasses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="644">
-          <caret line="65" column="77" selection-start-line="65" selection-start-column="77" selection-end-line="65" selection-end-column="77" />
-          <folding>
-            <marker date="1482931130585" expanded="true" signature="30:320" placeholder="..." />
-            <marker date="1482931130585" expanded="true" signature="410:1099" placeholder="{...}" />
-            <marker date="1482931130585" expanded="true" signature="1157:2913" placeholder="{...}" />
-            <marker date="1482931130585" expanded="false" signature="2974:2985" placeholder=" { " />
-            <marker date="1482931130585" expanded="false" signature="3030:3036" placeholder=" }" />
-            <marker date="1482931130585" expanded="true" signature="3098:3196" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter6/ClosableExamples.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding>
-            <marker date="1485982325582" expanded="true" signature="30:100" placeholder="..." />
-            <marker date="1485982325582" expanded="true" signature="172:479" placeholder="{...}" />
-            <marker date="1485982325582" expanded="true" signature="526:771" placeholder="{...}" />
-            <marker date="1485982325582" expanded="false" signature="811:822" placeholder=" { " />
-            <marker date="1485982325582" expanded="false" signature="863:869" placeholder=" }" />
-            <marker date="1485982325582" expanded="true" signature="927:1249" placeholder="{...}" />
-            <marker date="1485982325582" expanded="false" signature="990:1005" placeholder=" { " />
-            <marker date="1485982325582" expanded="false" signature="1018:1028" placeholder=" }" />
-            <marker date="1485982325582" expanded="true" signature="1095:1243" placeholder="{...}" />
-            <marker date="1485982325582" expanded="true" signature="1314:1638" placeholder="{...}" />
-            <marker date="1485982325582" expanded="true" signature="1381:1396" placeholder=" { " />
-            <marker date="1485982325582" expanded="true" signature="1409:1419" placeholder=" }" />
-            <marker date="1485982325582" expanded="true" signature="1484:1632" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ocp_chapter7/FixedExecutorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2072,6 +575,18 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2094,7 +609,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>9.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2112,6 +627,18 @@
               <list>
                 <option value="0.2" />
                 <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
