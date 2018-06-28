@@ -14,6 +14,11 @@ public class Jdk9upgrades {
 	}
 
 	@Test
+	public void dropWhileExample() {
+		IntStream.range(0, 12).dropWhile(input -> input < 10).forEach(System.out::println);
+	}
+
+	@Test
 	public void iterateUnaryExamples() {
 		Stream.iterate(1, integer -> integer + 1).limit(10).forEach(System.out::println);
 		System.out.println("====");
